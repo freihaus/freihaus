@@ -1,6 +1,5 @@
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import CustomIcon from "@/components/icons/logo";
-import Button from "@/components/button";
 
 export default function Home() {
 
