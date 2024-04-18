@@ -7,9 +7,6 @@ export default function Home() {
   return (
     <div className="w-full h-screen rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
       <div className="max-w-2xl mx-auto p-4">
-        <div className="flex absolute z-10 w-full justify-center top-10 md:hidden">
-          <CustomIcon size={50} />
-        </div>
 
         <h1 className="relative z-10 text-5xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-400 text-center font-sans font-bold">
           Freihaus
@@ -36,7 +33,7 @@ export default function Home() {
         <div className="flex justify-center items-center">
           <div className="mt-10 border rounded-lg border-neutral-400 ">
 
-            <ul className="justify-center text-center m-8">
+            <ul className="justify-center text-center m-8 text-neutral-100">
               <li>Nael Oesterle</li>
               <li>Rankstrasse 3</li>
               <li>8280 Kreuzlingen</li>
