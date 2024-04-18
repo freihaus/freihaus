@@ -11,20 +11,15 @@
   "dependencies": {
     "clsx": "^2.1.0",
     "framer-motion": "^11.1.5",
-    "next": "14.2.2",
+    "next": "14.2.1",
     "react": "^18",
     "react-dom": "^18",
-    "react-element-to-jsx-string": "^15.0.0",
     "tailwind-merge": "^2.2.2"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.2",
+    "eslint-config-next": "14.2.1",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "tailwindcss": "^3.4.1"
   }
 }
