@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { GridBackgroundDemo } from "@/components/ui/GridBackground";
+import Navbar from "@/components/Navbar/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,8 +17,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="de">
+      <body className={inter.className}>
+        <div className="z-99">      
+        {/* <NavbarMenu /> */}
+        <Navbar />
+        </div>
+
+
+      <div className="fixed w-full h-screen z-0">
+        <GridBackgroundDemo />
+      </div>
+        
+        {children}
+      
+      </body>
     </html>
   );
 }
