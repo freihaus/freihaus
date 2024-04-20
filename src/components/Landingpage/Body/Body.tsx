@@ -28,7 +28,7 @@ export default function Body() {
     });
     
     return (
-        <div>
+        <div className="w-full">
             {/* Upper Body */}
             <div className="flex flex-col md:flex-row  w-full justify-evenly items-center mt-6">
 

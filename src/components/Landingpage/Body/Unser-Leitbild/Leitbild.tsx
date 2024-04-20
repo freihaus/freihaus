@@ -4,7 +4,7 @@ import PictureRight from "../pictureRight";
 
 export default function Leitbild() {
     return (
-            <div>
+            <div className="mx-6">
                 <PictureRight 
                     headText="Unser Leitbild"
                     cardHeader="Mehr als nur vier Wände"

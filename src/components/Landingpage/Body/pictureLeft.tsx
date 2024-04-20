@@ -10,15 +10,15 @@ type PictureLeftProps = {
 
 const PictureLeft: React.FC<PictureLeftProps> = ({ headText, cardHeader, cardContent, imgSrc }) => {
   return (
-    <div className="flex flex-col w-full justify-center  mt-10">
+    <div className="flex flex-col w-full justify-evenly  mt-10">
       <div className="mb-12 mt-8">
         <SmallHeadText text={headText} />
       </div>
-      <div className="flex justify-evenly items-center flex-col lg:flex-row">
+      <div className="flex justify-evenly items-center flex-col lg:flex-row h-full">
       <div className="border custom-border-cyan rounded-3xl overflow-hidden m-4">
           <img 
             src={imgSrc} 
-            width={500}
+            className="w-[400px] md:w-[600px]"
           />
         </div>
         <TextCard header={cardHeader} content={cardContent} />

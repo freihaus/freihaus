@@ -5,7 +5,7 @@ import ProjectSlider from "../projectSlider";
 
 export default function Projekte() {
     return (
-                <div>
+                <div className="mx-6">
                     <ProjectSlider 
                        headText="Unsere Projekte" 
                        cardHeader="Wir bauen mit Geschichte"

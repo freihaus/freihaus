@@ -5,7 +5,7 @@ import PictureRight from "../pictureRight";
 export default function Angebot() {
     return (
 
-                <div>
+                <div className="mx-6">
                     <PictureRight
                         headText="Unser Angebot"
                         cardHeader="Vergangenheit würdigen, Gegenwart gestalten, Zukunft sichern"

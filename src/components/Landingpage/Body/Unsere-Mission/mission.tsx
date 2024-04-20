@@ -2,7 +2,7 @@ import TextCard from "@/components/TextCard";
 
 export default function Mission() {
     return (
-        <div>
+        <div className="mx-6">
            <TextCard 
                 header="Unsere Mission: Ein neues Kapitel für unsere Lebensräume"
                 content="FREIHAUS steht an der Schwelle zu einer neuen Ära des Bauens

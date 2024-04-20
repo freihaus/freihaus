@@ -4,7 +4,7 @@ import PictureLeft from "../pictureLeft";
 
 export default function Vision() {
     return (
-                <div>
+                <div className="mx-6">
                     <PictureLeft
                         headText="Unsere Vision"
                         cardHeader="Innovation im Wohnen"
