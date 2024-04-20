@@ -1,11 +1,14 @@
+import BigHeadText from "@/components/Landingpage/Header/BigHeadText";
+import SmallHeadText from "@/components/Landingpage/Header/SmallHeadText";
+
 export default function About() {
-    return (
-        <div className="relative flex flex-col items-center space-y-4 z-50 h-screen">
-          <p className="text-4xl sm:text-7xl font-bold relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-500 to-neutral-900 pt-8">Freihaus</p>
-          <p className="text-4xl sm:text-4xl font-bold relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-500 to-neutral-900 py-2">Zukunft kann man bauen</p>
-          <div>
-            <p>About</p>
-          </div>
+  return (
+      <div className="w-full relative flex flex-col items-center z-20 h-screen">
+        <div className="flex flex-col items-center mt-16">
+          <BigHeadText text="FreiHaus" />
+          <SmallHeadText text="About" />
         </div>
-    );
-  }
+
+      </div>
+  );
+}

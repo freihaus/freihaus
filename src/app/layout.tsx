@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body className={inter.className}>
-        <div className="z-99">      
+        <div className="fixed z-50 w-full">      
         {/* <NavbarMenu /> */}
         <Navbar />
         </div>
