@@ -1,4 +1,4 @@
-import TextCard from "@/components/ui/TextCard";
+import TextCard from "@/components/ui/Cards/TextCard";
 import SmallHeadText from "../Header/SmallHeadText";
 
 type PictureRightProps = {

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card-config";
+import { CardBody, CardContainer, CardItem } from "@/components/ui/Cards/3DCard/3d-card-config";
 import Link from "next/link";
 
 type ThreeDCardProps = {
@@ -14,7 +14,10 @@ type ThreeDCardProps = {
 
 export function ThreeDCard({ headText, content, imgSrc, cardHref }: ThreeDCardProps) {
     return (
+        <div>
+        <Link href={cardHref}>
         <CardContainer className="inter-var">
+            
             <CardBody className="bg-gray-50 relative group/card hover:shadow-xl transtition duration-100 ease-in-out border-custom-cyan w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                 <CardItem
                     translateZ="50"
@@ -41,9 +44,8 @@ export function ThreeDCard({ headText, content, imgSrc, cardHref }: ThreeDCardPr
                 <div className="flex justify-between items-center mt-20">
                     <CardItem
                         translateZ={20}
-                        as={Link}
+                        as="p"
                         href={cardHref}
-                        target="__blank"
                         className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                     >
                         Mehr Infos →
@@ -52,11 +54,14 @@ export function ThreeDCard({ headText, content, imgSrc, cardHref }: ThreeDCardPr
                         translateZ={20}
                         as="button"
                         className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                        href={cardHref}
                     >
                         Details
                     </CardItem>
                 </div>
             </CardBody>
         </CardContainer>
+        </Link>
+        </div>
     );
 }

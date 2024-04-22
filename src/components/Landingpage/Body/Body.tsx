@@ -7,8 +7,6 @@ import { useInView } from "react-intersection-observer";
 import Vision from "./Unsere-Vision/Vision";
 import Angebot from "./Unser-Angebot/Angebot";
 import Projekte from "./Unsere-Projekte/Projekte";
-import { HeroParallaxDemo } from "../../ui/ProjectParallax";
-import ProjectSlider from "./projectSlider";
 
 export default function Body() {
 
