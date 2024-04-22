@@ -1,6 +1,3 @@
-import TextCard from "@/components/ui/Cards/TextCard";
-import SmallHeadText from "../../Header/SmallHeadText";
-import PictureLeft from "../pictureLeft";
 import ProjectSlider from "../projectSlider";
 
 export default function Projekte() {
@@ -17,17 +14,17 @@ export default function Projekte() {
                        Gemeinwohlökonomie und werteorientierte Zukunftsgestaltung in
                        einer lebendigen Gemeinschaft vereint."
                        imgSrcs={[
-                        "https://freihaus.s3.eu-central-1.amazonaws.com/1.jpg",
-                        "https://freihaus.s3.eu-central-1.amazonaws.com/2.jpg",
-                        "https://freihaus.s3.eu-central-1.amazonaws.com/3.jpg",
-                        "https://freihaus.s3.eu-central-1.amazonaws.com/4.jpg",
-                        "https://freihaus.s3.eu-central-1.amazonaws.com/5.jpg",
-                        "https://freihaus.s3.eu-central-1.amazonaws.com/6.jpg",
-                        "https://freihaus.s3.eu-central-1.amazonaws.com/7.jpg",
-                        "https://freihaus.s3.eu-central-1.amazonaws.com/8.jpg",
-                        "https://freihaus.s3.eu-central-1.amazonaws.com/9.jpg",
-                        "https://freihaus.s3.eu-central-1.amazonaws.com/10.jpg",
-                        "https://freihaus.s3.eu-central-1.amazonaws.com/11.jpg",
+                        "https://dr7f261fq4afc.cloudfront.net/1.jpg",
+                        "https://dr7f261fq4afc.cloudfront.net/2.jpg",
+                        "https://dr7f261fq4afc.cloudfront.net/3.jpg",
+                        "https://dr7f261fq4afc.cloudfront.net/4.jpg",
+                        "https://dr7f261fq4afc.cloudfront.net/5.jpg",
+                        "https://dr7f261fq4afc.cloudfront.net/6.jpg",
+                        "https://dr7f261fq4afc.cloudfront.net/7.jpg",
+                        "https://dr7f261fq4afc.cloudfront.net/8.jpg",
+                        "https://dr7f261fq4afc.cloudfront.net/9.jpg",
+                        "https://dr7f261fq4afc.cloudfront.net/10.jpg",
+                        "https://dr7f261fq4afc.cloudfront.net/11.jpg",
                        ]}
                     />
                 </div>

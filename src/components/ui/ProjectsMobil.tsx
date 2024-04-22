@@ -62,7 +62,7 @@ export default function ProjectsMobile() {
                 animate={{ opacity: inView1 ? 1 : 0, x: inView1 ? 0 : -300 }}
                 transition={{ type: "spring", stiffness: 40, duration: 0.3}}
             >
-                <TwoDCard headText="Villa Felsenhöhe" content="Ein historischer Juwel neu belebt" imgSrc="https://freihaus.s3.eu-central-1.amazonaws.com/1.jpg" cardHref="/villa-felsenhoehe" />
+                <TwoDCard headText="Villa Felsenhöhe" content="Ein historischer Juwel neu belebt" imgSrc="https://dr7f261fq4afc.cloudfront.net/1.jpg" cardHref="/villa-felsenhoehe" />
             </motion.div>
 
             <motion.div
@@ -71,7 +71,7 @@ export default function ProjectsMobile() {
                 animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : 300 }}
                 transition={{ type: "spring", stiffness: 40, duration: 0.3}}
             >
-                <TwoDCard headText="Die Gerschwendi" content="Das Haus im Niemandsland" imgSrc="https://freihaus.s3.eu-central-1.amazonaws.com/2.jpg" cardHref="/gerschwendi" />
+                <TwoDCard headText="Die Gerschwendi" content="Das Haus im Niemandsland" imgSrc="https://dr7f261fq4afc.cloudfront.net/2.jpg" cardHref="/gerschwendi" />
             </motion.div>
 
             <motion.div
@@ -80,7 +80,7 @@ export default function ProjectsMobile() {
                 animate={{ opacity: inView3 ? 1 : 0, x: inView3 ? 0 : -300 }}
                 transition={{ type: "spring", stiffness: 40, duration: 0.3}}
             >
-                <TwoDCard headText="Das Kollbrunner Haus" content="Ein Zuhause mit Geschichte" imgSrc="https://freihaus.s3.eu-central-1.amazonaws.com/3.jpg" cardHref="/kollbrunner-haus" />
+                <TwoDCard headText="Das Kollbrunner Haus" content="Ein Zuhause mit Geschichte" imgSrc="https://dr7f261fq4afc.cloudfront.net/3.jpg" cardHref="/kollbrunner-haus" />
             </motion.div>
 
             <motion.div
@@ -89,7 +89,7 @@ export default function ProjectsMobile() {
                 animate={{ opacity: inView4 ? 1 : 0, x: inView4 ? 0 : 300 }}
                 transition={{ type: "spring", stiffness: 40, duration: 0.3}}
             >
-                <TwoDCard headText="Das Hüsli von der Felsenhöhe" content="Pionierarbeit für nachhaltiges und verdichtetes Bauen" imgSrc="https://freihaus.s3.eu-central-1.amazonaws.com/4.jpg" cardHref="/huesli" />
+                <TwoDCard headText="Das Hüsli von der Felsenhöhe" content="Pionierarbeit für nachhaltiges und verdichtetes Bauen" imgSrc="https://dr7f261fq4afc.cloudfront.net/4.jpg" cardHref="/huesli" />
             </motion.div>
 
             <motion.div
@@ -98,7 +98,7 @@ export default function ProjectsMobile() {
                 animate={{ opacity: inView5 ? 1 : 0, x: inView5 ? 0 : -300 }}
                 transition={{ type: "spring", stiffness: 40, duration: 0.3}}
             >
-                <TwoDCard headText="Ein kleines Dorf in St.Gallien" content="Das Dorf, das Gemeinschaft neu definiert" imgSrc="https://freihaus.s3.eu-central-1.amazonaws.com/5.jpg" cardHref="/dorf-stgallien" />
+                <TwoDCard headText="Ein kleines Dorf in St.Gallien" content="Das Dorf, das Gemeinschaft neu definiert" imgSrc="https://dr7f261fq4afc.cloudfront.net/5.jpg" cardHref="/dorf-stgallien" />
             </motion.div>
 
             <motion.div
@@ -107,7 +107,7 @@ export default function ProjectsMobile() {
                 animate={{ opacity: inView6 ? 1 : 0, x: inView6 ? 0 : 300 }}
                 transition={{ type: "spring", stiffness: 40, duration: 0.3}}
             >
-                <TwoDCard headText="Unser Sandkasten" content="Sie haben Ideen und wollen bei Projekten mitwirken?" imgSrc="https://freihaus.s3.eu-central-1.amazonaws.com/6.jpg" cardHref="/sandkasten" />
+                <TwoDCard headText="Unser Sandkasten" content="Sie haben Ideen und wollen bei Projekten mitwirken?" imgSrc="https://dr7f261fq4afc.cloudfront.net/6.jpg" cardHref="/sandkasten" />
             </motion.div>
             </div>
         </div>

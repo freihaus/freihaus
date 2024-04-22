@@ -1,5 +1,3 @@
-import TextCard from "@/components/ui/Cards/TextCard";
-import SmallHeadText from "../../Header/SmallHeadText";
 import PictureLeft from "../pictureLeft";
 
 export default function Vision() {
@@ -15,7 +13,7 @@ export default function Vision() {
                         unserer Projekte spiegelt unsere Bereitschaft wieder, alten
                         Gebäuden neues Leben einzuhauchen und nachhaltige,
                         zeitgemäße Lebensräume zu schaffen."
-                        imgSrc="https://freihaus.s3.eu-central-1.amazonaws.com/vision.webp"
+                        imgSrc="https://dr7f261fq4afc.cloudfront.net/vision.webp"
                     />
                 </div>
     )

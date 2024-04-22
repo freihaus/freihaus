@@ -5,8 +5,8 @@ export default function DorfProjectPage() {
         <div className="w-full flex flex-col">
             <SpotlightHeader 
                 images={[
-                    "https://freihaus.s3.eu-central-1.amazonaws.com/6.jpg",
-                    "https://freihaus.s3.eu-central-1.amazonaws.com/5.jpg",
+                    "https://dr7f261fq4afc.cloudfront.net/6.jpg",
+                    "https://dr7f261fq4afc.cloudfront.net/5.jpg",
                 ]}
                 header="Ein kleines Dorf in St.Gallien" 
                 description={`Inspiriert von Umberto Ecos Darstellung eines kleinen,

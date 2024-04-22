@@ -5,7 +5,7 @@ const nextConfig = {
       remotePatterns: [
         {
         protocol: 'https',
-        hostname: 'freihaus.s3.eu-central-1.amazonaws.com',
+        hostname: 'dr7f261fq4afc.cloudfront.net',
         port: '',
         pathname: '/**',
         },

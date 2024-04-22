@@ -14,7 +14,7 @@ export default function Angebot() {
                         sichern. Durch intensive Quellenarbeit und maßgeschneiderte
                         Umbauten verbinden wir historisches Erbe mit modernen
                         Bedürfnissen, ohne die Seele des Raumes zu verlieren."
-                        imgSrc="https://freihaus.s3.eu-central-1.amazonaws.com/angebot.webp"
+                        imgSrc="https://dr7f261fq4afc.cloudfront.net/angebot.webp"
                     />
                 </div>
     )
