@@ -1,5 +1,5 @@
-import ProjectsDesktop from "@/components/ui/ProjectPages/ProjectsDesktop";
-import ProjectsMobile from "@/components/ui/ProjectPages/ProjectsMobil";
+import ProjectsDesktop from "@/components/ui/ProjectsDesktop";
+import ProjectsMobile from "@/components/ui/ProjectsMobil";
 
 
 export default function Projects() {

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { TypewriterEffectSmooth } from "../typewriter";
+import { TypewriterEffectSmooth } from "./typewriter";
 export function CallToAction() {
   const words = [
     {

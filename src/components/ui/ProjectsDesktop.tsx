@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { BackgroundBoxes } from '../BackGrounds/backgroundBoxes';
+import { BackgroundBoxes } from './BackGrounds/backgroundBoxes';
 import  ProjectCardSection  from '@/components/ui/Cards/3DCard/ProjectCardSection';
 
 export default function ProjectsDesktop() {

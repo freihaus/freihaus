@@ -1,5 +1,4 @@
-import ProjectBody from "@/components/ui/ProjectPages/ProjectBody";
-import { SpotlightHeader } from "@/components/ui/SpotlightHeader";
+import { SpotlightHeader } from "@/components/ui/ProjectPages/SpotlightHeader";
 
 export default function DorfProjectPage() {
     return (

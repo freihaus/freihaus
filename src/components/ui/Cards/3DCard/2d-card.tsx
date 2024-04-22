@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
+
 type TwoDCardProps = {
     headText: string;
     content: string;
@@ -9,8 +10,12 @@ type TwoDCardProps = {
 };
 
 export default function TwoDCard({ headText, content, imgSrc, cardHref }: TwoDCardProps) {
+
+
+
+    
     return (
-        <div className="flex flex-col items-center justify-center w-[320px] h-[450px] border border-custom-cyan rounded-xl bg-white z-20 p-4">
+        <div className="flex flex-col items-center justify-center w-[320px] h-auto border border-custom-cyan rounded-xl bg-white z-20 p-4">
             <Link href={cardHref}>
                 <div className="flex flex-col items-center justify-center max-w-[300px]">
                     <h1 className="font-bold mb-4 text-custom-brown mt-8 text-2xl text-center break-words">
