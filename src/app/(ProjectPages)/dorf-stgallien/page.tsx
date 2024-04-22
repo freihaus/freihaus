@@ -1,7 +1,36 @@
+import ProjectBody from "@/components/ui/ProjectPages/ProjectBody";
+import { SpotlightHeader } from "@/components/ui/SpotlightHeader";
+
 export default function DorfProjectPage() {
     return (
-        <div>
-            <h1>Dorf ST.Gallien</h1>
+        <div className="w-full flex flex-col">
+            <SpotlightHeader 
+                images={[
+                    "https://freihaus.s3.eu-central-1.amazonaws.com/6.jpg",
+                    "https://freihaus.s3.eu-central-1.amazonaws.com/5.jpg",
+                ]}
+                header="Ein kleines Dorf in St.Gallien" 
+                description={`Inspiriert von Umberto Ecos Darstellung eines kleinen,
+                widerstandsfähigen Dörfchens in "Asterix", plant FREIHAUS die
+                Schaffung eines Dorfes. "Ein kleines Dorf in St. Gallien“ ist dabei
+                durchaus ein sinnstiftender Arbeitstitel - unabhängig davon, ob das
+                Grundstück dafür im Raum St. Gallen sein wird (auch wenn wir das
+                hoffen). Das Grundkonzept verkörpert durch die humorvolle
+                Namensgebung unsere Vision eines Lebensraums, der unsere
+                tiefsten Werte von Gemeinschaft, Kreativität und gegenseitiger
+                Förderung widerspiegelt. Es soll ein Ort sein, an dem Menschen
+                unabhängig von ihrem Alter oder ihrer finanziellen Lage
+                zusammenkommen, um harmonisch und klimabewusst zu leben.`} 
+                PartOneH={`Gemeinschaft als Kern der Existenz`} 
+                PartOneD={`"Ein kleines Dorf in St. Gallien" soll ein Modell für klimabewusste Mikrowohnformen und generationsübergreifendes Zusammenleben sein. Jedes Haus und jeder öffentliche Raum wird so gestaltet, dass gemeinschaftliches Leben gefördert und gleichzeitig individuelle Entfaltung möglich ist. Verbindliche Regeln zur Teilnahme und Mitgestaltung schaffen ein starkes Fundament für ein gemeinwohlökonomisches Leben, das jeden dazu ermutigt, aktiv am Dorfleben teilzunehmen und zur gemeinsamen Werteentwicklung beizutragen.`}
+                PartTwoH={`Eine Brücke zwischen Tradition und Moderne`}
+                PartTwoD={`Angelehnt an die Lehren aus unseren bisherigen Projekten wie der Gerschwendi, dem Kollbrunner Haus und der Villa Felsenhöhe, wird dieses Dorf traditionelle Bauweisen mit modernen, umweltfreundlichen Technologien verbinden. Die Verwendung von nachhaltigen Materialien und die Integration von Innovationen wie der Kreislaufwirtschaft werden Standard sein, um eine Zukunft zu bauen, die sowohl ökologisch verantwortungsbewusst als auch ökonomisch tragfähig ist.`}
+                PartThreeH={`Eine Stiftung fördert Sinnstiftung`}
+                PartThreeD={`Unterstützt durch die Kollbrunner-Stiftung, wird das Dorf auch ein Zentrum für Quellenarbeit und historische Forschung sein. Diese Arbeit ist entscheidend, um die Bedeutung und die Geschichten des Ortes zu verstehen und sie in die Gestaltung des Dorflebens einzubringen. Das tiefe Verständnis der Vergangenheit hilft uns, Räume zu schaffen, die nicht nur bewohnbar, sondern lebens- und erhaltenswert sind.`}
+                />
+
+                
+                
         </div>
     )
 }
