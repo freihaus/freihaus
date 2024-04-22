@@ -1,6 +1,6 @@
-import TextCard from "@/components/TextCard";
+import TextCard from "@/components/ui/TextCard";
 import SmallHeadText from "../Header/SmallHeadText";
-import ImageSlider from "@/components/ImageSlider";
+import ImageSlider from "@/components/ui/ImageSlider";
 import Link from "next/link";
 
 type ProjectSliderProps = {
@@ -18,16 +18,25 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({ headText, cardHeader, car
       </div>
       
       <div className="flex justify-evenly items-center flex-col lg:flex-row">
+        <Link href="/projects">
         <ImageSlider images={imgSrcs} fadeDuration={1000} changeInterval={3000} />
+        </Link>
         <Link 
           href="/projects"
-          className="text-3xl font-bold relative text-custom-brown px-4 py-2 rounded-xl bg-custom-cyan my-4">
+          className="text-3xl font-bold relative text-custom-brown px-4 py-2 rounded-xl bg-custom-cyan my-4 flex md:hidden">
             Projekte
         </Link>
 
        
         <TextCard header={cardHeader} content={cardContent} />
       </div>
+      <div className="w-full flex justify-center items-center">
+      <Link 
+          href="/projects"
+          className="text-3xl font-bold relative text-custom-brown px-4 py-2 rounded-xl bg-custom-cyan my-4 hidden md:flex w-52 text-center justify-center animate-bounce">
+            Projekte
+        </Link>
+        </div>
     </div>
   );
 };

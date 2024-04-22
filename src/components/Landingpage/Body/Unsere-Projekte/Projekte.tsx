@@ -1,4 +1,4 @@
-import TextCard from "@/components/TextCard";
+import TextCard from "@/components/ui/TextCard";
 import SmallHeadText from "../../Header/SmallHeadText";
 import PictureLeft from "../pictureLeft";
 import ProjectSlider from "../projectSlider";

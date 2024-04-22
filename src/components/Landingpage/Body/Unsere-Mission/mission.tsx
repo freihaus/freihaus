@@ -1,4 +1,4 @@
-import TextCard from "@/components/TextCard";
+import TextCard from "@/components/ui/TextCard";
 
 export default function Mission() {
     return (
