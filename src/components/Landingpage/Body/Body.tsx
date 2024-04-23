@@ -21,8 +21,8 @@ export default function Body() {
             const delay = Math.abs(newY - lastY) * 0.11;
 
             controls.start({
-                y: -newY,
-                transition: { type: 'spring', stiffness: 300, damping: 50}
+                y: -newY / 6,
+                transition: { type: 'spring', stiffness: 200, damping: 10}
             });
 
             setLastY(newY);
@@ -52,9 +52,9 @@ export default function Body() {
     });
     
     return (
-        <div className="w-full">
+        <motion.div className="w-full" animate={controls}>
             {/* Upper Body */}
-            <motion.div animate={controls}>
+            <motion.div >
             <div className="flex flex-col md:flex-row  w-full justify-evenly items-center mt-6">
                 
 
@@ -127,6 +127,6 @@ export default function Body() {
 
             
             </motion.div>
-        </div>
+        </motion.div>
     );
 };
