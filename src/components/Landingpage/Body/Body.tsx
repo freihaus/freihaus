@@ -1,5 +1,5 @@
 'use client'
-import { motion } from "framer-motion";
+import { motion, useTransform, useScroll, useAnimation } from "framer-motion";
 import CustomIcon from "../../icons/logo";
 import Mission from "./Unsere-Mission/mission";
 import Leitbild from "./Unser-Leitbild/Leitbild";
@@ -7,8 +7,34 @@ import { useInView } from "react-intersection-observer";
 import Vision from "./Unsere-Vision/Vision";
 import Angebot from "./Unser-Angebot/Angebot";
 import Projekte from "./Unsere-Projekte/Projekte";
+import { useEffect, useState } from "react";
+
+
 
 export default function Body() {
+    const controls = useAnimation();
+    const [lastY, setLastY] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const newY = window.scrollY;
+            const delay = Math.abs(newY - lastY) * 0.11;
+
+            controls.start({
+                y: -newY,
+                transition: { type: 'spring', stiffness: 300, damping: 50}
+            });
+
+            setLastY(newY);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [controls, lastY]);
+
 
     const { ref: ref1, inView: inView1 } = useInView({
         triggerOnce: true,
@@ -28,23 +54,34 @@ export default function Body() {
     return (
         <div className="w-full">
             {/* Upper Body */}
+            <motion.div animate={controls}>
             <div className="flex flex-col md:flex-row  w-full justify-evenly items-center mt-6">
+                
 
+                    {/*Hintergrund Div der gefolgt werden soll*/}
                     <motion.div 
                         className="mt-4"
                         initial={{ x: -900, y: -50 }}
                         animate={{ x: 0, y: 0 }}
                         transition={{ type: "spring", stiffness: 40, delay: 3}}
                     >
-                        <CustomIcon  size={300}/>
+                        {/* Card div die folgen soll */}
+
+                            <CustomIcon  size={300}/>
+
+                        
                     </motion.div>
 
                     <motion.div
+                        className="mt-4"
                         initial={{ x: 900, y: 50 }}
                         animate={{ x: 0, y: 0 }}
                         transition={{ type: "spring", stiffness: 40, delay: 3}}
                     >
-                        <Mission />
+
+                            <Mission />
+
+
                     </motion.div>
                     
             </div>
@@ -89,7 +126,7 @@ export default function Body() {
             </motion.div>
 
             
-
+            </motion.div>
         </div>
     );
 };

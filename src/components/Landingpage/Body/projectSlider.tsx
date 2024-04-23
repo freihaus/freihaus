@@ -12,8 +12,8 @@ type ProjectSliderProps = {
 
 const ProjectSlider: React.FC<ProjectSliderProps> = ({ headText, cardHeader, cardContent, imgSrcs }) => {
   return (
-    <div className="flex flex-col w-full justify-center  mt-10">
-      <div className="mb-12 mt-8">
+    <div className="flex flex-col w-full justify-center  mt-10 items-center">
+      <div className="mb-12 mt-8 max-w-[400px] bg-white border border-custom-cyan rounded-3xl shadow-2xl">
         <SmallHeadText text={headText} />
       </div>
       
@@ -34,7 +34,7 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({ headText, cardHeader, car
       <Link 
           href="/projekte"
           className="text-3xl font-bold relative text-custom-brown px-4 py-2 rounded-xl bg-custom-cyan my-4 hidden md:flex w-52 text-center justify-center animate-bounce">
-            Projekte
+            Zu den Projekten
         </Link>
         </div>
     </div>

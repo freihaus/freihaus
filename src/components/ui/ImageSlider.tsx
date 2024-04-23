@@ -29,7 +29,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images, fadeDuration, changeI
   }, [currentIndex, nextIndex, images.length, fadeDuration, changeInterval]);
 
   return (
-    <div className='flex flex-col items-center border-2 border-cyan-500 rounded-3xl overflow-hidden m-4 relative w-[310px] md:w-[600px] h-[400px] md:h-[600px]'>
+    <div className='flex flex-col items-center border-2 border-cyan-500 rounded-3xl overflow-hidden m-4 relative w-[310px] md:w-[600px] h-[400px] md:h-[600px] shadow-2xl'>
       {images.map((image, index) => (
         <img
           key={image}

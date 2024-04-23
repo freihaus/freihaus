@@ -10,19 +10,19 @@
 
 
 .custom-border-cyan {
-  border-color: rgb(1, 191, 191);
+  border-color: rgb(41, 187, 173);
 }
 
 .custom-bg-cyan {
-  background-color: rgb(1, 191, 191);
+  background-color: rgb(41, 187, 173);
 }
 
 .custom-border-brown {
-  border-color: rgb(52, 35, 30);
+  border-color: rgb(54, 26, 18);
 }
 
 .brown-gradient-text {
-  background: linear-gradient(to bottom, rgb(82, 65, 60), rgb(52, 35, 30));
+  background: linear-gradient(to bottom, rgb(82, 65, 60), rgb(54, 26, 18));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

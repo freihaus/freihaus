@@ -10,8 +10,8 @@ type PictureRightProps = {
 
 const PictureRight: React.FC<PictureRightProps> = ({ headText, cardHeader, cardContent, imgSrc }) => {
   return (
-    <div className="flex flex-col w-full justify-evenly mt-10">
-      <div className="mb-12 mt-8 ">
+    <div className="flex flex-col w-full justify-evenly mt-10 items-center">
+      <div className="mb-12 mt-8 max-w-[400px] bg-white border border-custom-cyan rounded-3xl shadow-2xl">
         <SmallHeadText text={headText} />
       </div>
       <div className="flex justify-evenly items-center flex-col lg:flex-row h-full">
