@@ -18,8 +18,8 @@ export function CallToAction() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[40rem]  ">
-      <p className="text-neutral-200 text-xs sm:text-base  ">
+    <div className="flex flex-col items-center justify-center h-[20rem]  ">
+      <p className="text-neutral-200 sm:text-base">
         Engagieren Sie sich bei uns, und bringen Sie Ihre Ideen und Ihr
         Wissen ein. Unsere Gemeinschaft von Visionären und Pionieren
         freut sich darauf, gemeinsam neue Wege im Wohn- und Bauwesen

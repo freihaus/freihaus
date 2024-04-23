@@ -11,9 +11,6 @@ type TwoDCardProps = {
 
 export default function TwoDCard({ headText, content, imgSrc, cardHref }: TwoDCardProps) {
 
-
-
-    
     return (
         <div className="flex flex-col items-center justify-center w-[320px] h-auto border border-custom-cyan rounded-xl bg-white z-20 p-4">
             <Link href={cardHref}>

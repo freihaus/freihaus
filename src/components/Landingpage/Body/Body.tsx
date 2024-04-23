@@ -7,33 +7,35 @@ import { useInView } from "react-intersection-observer";
 import Vision from "./Unsere-Vision/Vision";
 import Angebot from "./Unser-Angebot/Angebot";
 import Projekte from "./Unsere-Projekte/Projekte";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 
 
 export default function Body() {
     const controls = useAnimation();
-    const [lastY, setLastY] = useState(0);
-
+    const isMobile = typeof window !== 'undefined' ? window.innerWidth <= 767 : false;
+  
     useEffect(() => {
-        const handleScroll = () => {
-            const newY = window.scrollY;
-            const delay = Math.abs(newY - lastY) * 0.11;
+        if (isMobile || typeof window === 'undefined') return;
+  
+      const handleScroll = () => {
+        const newY = window.scrollY;
 
-            controls.start({
-                y: -newY / 6,
-                transition: { type: 'spring', stiffness: 200, damping: 10}
-            });
+  
+        controls.start({
+          y: -newY / 6,
+          transition: { type: 'spring', stiffness: 200, damping: 10 }
+        });
+  
 
-            setLastY(newY);
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, [controls, lastY]);
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, [controls, isMobile]);
 
 
     const { ref: ref1, inView: inView1 } = useInView({
@@ -52,7 +54,7 @@ export default function Body() {
     });
     
     return (
-        <motion.div className="w-full" animate={controls}>
+        <motion.div className="w-full" animate={!isMobile ? controls : {}}>
             {/* Upper Body */}
             <motion.div >
             <div className="flex flex-col md:flex-row  w-full justify-evenly items-center mt-6">
@@ -61,7 +63,7 @@ export default function Body() {
                     {/*Hintergrund Div der gefolgt werden soll*/}
                     <motion.div 
                         className="mt-4"
-                        initial={{ x: -900, y: -50 }}
+                        initial={{ x: -1200, y: -50 }}
                         animate={{ x: 0, y: 0 }}
                         transition={{ type: "spring", stiffness: 40, delay: 3}}
                     >
@@ -74,7 +76,7 @@ export default function Body() {
 
                     <motion.div
                         className="mt-4"
-                        initial={{ x: 900, y: 50 }}
+                        initial={{ x: 1200, y: 50 }}
                         animate={{ x: 0, y: 0 }}
                         transition={{ type: "spring", stiffness: 40, delay: 3}}
                     >

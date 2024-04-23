@@ -26,7 +26,7 @@ type SpotlightHeaderProps = {
 
 export function SpotlightHeader({ header, description, PartOneH, PartOneD, PartTwoH, PartTwoD, PartThreeH, PartThreeD, images, optionalProp1, optionalProp2, optionalProp3, optionalProp4, optionalProp5, optionalProp6, optionalProp7, optionalProp8 }: SpotlightHeaderProps & { optionalProp1?: string, optionalProp2?: string, optionalProp3?: string, optionalProp4?: string, optionalProp5?: string, optionalProp6?: string, optionalProp7?: string, optionalProp8?: string}) {
   return (
-    <div className=" w-full rounded-md flex bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+    <div className=" w-full rounded-md flex bg-black antialiased bg-grid-white/[0.06] relative overflow-hidden">
 
         <div className="w-full mt-52">
             <Spotlight
@@ -186,7 +186,7 @@ export function SpotlightHeader({ header, description, PartOneH, PartOneD, PartT
         )}
 
         {/* Optional Four*/}
-        {optionalProp7 && optionalProp8 && (<div className="w-full mt-12 md:mt-32 md:mb-40">
+        {optionalProp7 && optionalProp8 && (<div className="w-full mt-12 md:mt-32 md:mb-20">
             <div className="flex flex-col">
                 <h1 className="text-4xl md:text-5xl xl:ml-40 font-bold px-12 py-8 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 text-center md:text-start">
                     {optionalProp7}
@@ -222,7 +222,7 @@ export function SpotlightHeader({ header, description, PartOneH, PartOneD, PartT
 
 
 
-      <div className="w-full flex justify-center items-center md:mt-26">
+      <div className="w-full flex justify-center md:mt-12">
         <div className="max-w-[1000px] text-center mx-20">
             <CallToAction />
         </div>

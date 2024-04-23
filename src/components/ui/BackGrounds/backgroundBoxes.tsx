@@ -12,7 +12,7 @@ export function BackgroundBoxes() {
       <h1 className={cn("md:text-6xl text-5xl text-custom-cyan relative z-20")}>
         Projekte
       </h1>
-      <p className="text-center mt-8 text-custom-cyan relative z-20">
+      <p className="text-center mt-8 text-custom-cyan relative z-20 text-lg">
         Hier finden sie unsere Projekte, die wir in der Vergangenheit umgesetzt haben. Und jene die wir in Zukunft umsetzen werden.
       </p>
     </div>
