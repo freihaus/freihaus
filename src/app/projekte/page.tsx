@@ -1,7 +1,6 @@
 import ProjectsDesktop from "@/components/ui/ProjectsDesktop";
 import ProjectsMobile from "@/components/ui/ProjectsMobil";
 
-
 export default function Projects() {
   return (
     <div>

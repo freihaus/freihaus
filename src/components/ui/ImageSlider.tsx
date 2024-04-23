@@ -1,5 +1,5 @@
-'use client';
-import React, { useState, useEffect } from 'react';
+"use client";
+import React, { useState, useEffect } from "react";
 
 interface ImageSliderProps {
   images: string[];
@@ -7,7 +7,11 @@ interface ImageSliderProps {
   changeInterval: number; // Intervall zwischen Bildwechseln in Millisekunden
 }
 
-const ImageSlider: React.FC<ImageSliderProps> = ({ images, fadeDuration, changeInterval }) => {
+const ImageSlider: React.FC<ImageSliderProps> = ({
+  images,
+  fadeDuration,
+  changeInterval,
+}) => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [nextIndex, setNextIndex] = useState<number>(1);
   const [opacity, setOpacity] = useState<number>(0);
@@ -29,24 +33,25 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images, fadeDuration, changeI
   }, [currentIndex, nextIndex, images.length, fadeDuration, changeInterval]);
 
   return (
-    <div className='flex flex-col items-center border-2 border-cyan-500 rounded-3xl overflow-hidden m-4 relative w-[310px] md:w-[600px] h-[400px] md:h-[600px] shadow-2xl'>
+    <div className="flex flex-col items-center border-2 border-cyan-500 rounded-3xl overflow-hidden m-4 relative w-[310px] md:w-[600px] h-[400px] md:h-[600px] shadow-2xl">
       {images.map((image, index) => (
         <img
           key={image}
           src={image}
           alt={`Bild ${index + 1}`}
           style={{
-            width: '100%',
-            height: '100%',
-            position: 'absolute',
+            width: "100%",
+            height: "100%",
+            position: "absolute",
             transition: `opacity ${fadeDuration / 1000}s ease`,
-            opacity: index === currentIndex ? 1 : (index === nextIndex ? opacity : 0),
-            objectFit: 'cover',
+            opacity:
+              index === currentIndex ? 1 : index === nextIndex ? opacity : 0,
+            objectFit: "cover",
           }}
         />
       ))}
     </div>
   );
-}
+};
 
 export default ImageSlider;

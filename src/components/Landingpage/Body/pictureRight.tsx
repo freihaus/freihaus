@@ -8,7 +8,12 @@ type PictureRightProps = {
   imgSrc: string;
 };
 
-const PictureRight: React.FC<PictureRightProps> = ({ headText, cardHeader, cardContent, imgSrc }) => {
+const PictureRight: React.FC<PictureRightProps> = ({
+  headText,
+  cardHeader,
+  cardContent,
+  imgSrc,
+}) => {
   return (
     <div className="flex flex-col w-full justify-evenly mt-10 items-center">
       <div className="mb-12 mt-8 max-w-[400px] bg-white border border-custom-cyan rounded-3xl shadow-2xl">
@@ -18,10 +23,7 @@ const PictureRight: React.FC<PictureRightProps> = ({ headText, cardHeader, cardC
         <TextCard header={cardHeader} content={cardContent} />
 
         <div className="border custom-border-cyan rounded-3xl overflow-hidden m-4">
-          <img 
-            src={imgSrc} 
-            className="w-[400px] md:w-[600px]"
-          />
+          <img src={imgSrc} className="w-[400px] md:w-[600px]" />
         </div>
       </div>
     </div>

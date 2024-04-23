@@ -1,15 +1,15 @@
-import { SpotlightHeader } from "@/components/ui/ProjectPages/SpotlightHeader"
+import { SpotlightHeader } from "@/components/ui/ProjectPages/SpotlightHeader";
 
 export default function HuesliProjectPage() {
-    return (
-        <div className="w-full flex flex-col">
-        <SpotlightHeader 
-            images={[
-                "https://dr7f261fq4afc.cloudfront.net/3.jpg",
-                "https://dr7f261fq4afc.cloudfront.net/3.jpg",
-            ]}
-            header="Das Hüsli von der Felsenhöhe" 
-            description={`Pionierarbeit für
+  return (
+    <div className="w-full flex flex-col">
+      <SpotlightHeader
+        images={[
+          "https://dr7f261fq4afc.cloudfront.net/3.jpg",
+          "https://dr7f261fq4afc.cloudfront.net/3.jpg",
+        ]}
+        header="Das Hüsli von der Felsenhöhe"
+        description={`Pionierarbeit für
             nachhaltiges und verdichtetes Bauen
             Innovatives Wohnkonzept in Kreuzlingen
             "Das Hüsli von der Felsenhöhe", geplant auf dem Gelände der Villa
@@ -19,9 +19,9 @@ export default function HuesliProjectPage() {
             auch ästhetisch ansprechend und ökologisch vorbildlich sein kann.
             Dieses Projekt adressiert die dringenden Bedürfnisse nach
             verdichtetem Bauen, das in der Schweiz zunehmend an Bedeutung
-            gewinnt, sowie nach bezahlbarem Wohnraum.`} 
-            PartOneH={`Ökologisch, ökonomisch und sozial verantwortlich`} 
-            PartOneD={`Das „Hüsli“ ist darauf ausgelegt, den Einsatz von nachhaltigen und
+            gewinnt, sowie nach bezahlbarem Wohnraum.`}
+        PartOneH={`Ökologisch, ökonomisch und sozial verantwortlich`}
+        PartOneD={`Das „Hüsli“ ist darauf ausgelegt, den Einsatz von nachhaltigen und
             klimaschonenden Materialien zu maximieren. Durch den
             innovativen Einsatz eines 3D-Druck-Systems, das Hanfstroh und
             Naturkalk nutzt, demonstriert FREIHAUS, wie durch moderne
@@ -30,8 +30,8 @@ export default function HuesliProjectPage() {
             ausgezeichnete thermische Eigenschaften und tragen zur
             Luftqualität bei, sondern sind auch in ihrer Herstellung und
             Verwendung besonders energieeffizient.`}
-            PartTwoH={`Verdichtetes Bauen als soziale Chance`}
-            PartTwoD={`Das Projekt zielt darauf ab, ein Modell zu schaffen, das zeigt, wie
+        PartTwoH={`Verdichtetes Bauen als soziale Chance`}
+        PartTwoD={`Das Projekt zielt darauf ab, ein Modell zu schaffen, das zeigt, wie
             verdichtetes Bauen gesellschaftlichen Mehrwert schaffen kann.
             Durch die kluge Anordnung von Wohn- und Gemeinschaftsflächen
             innerhalb des Hüslis wird demonstriert, dass verdichteter
@@ -39,8 +39,8 @@ export default function HuesliProjectPage() {
             soziale Interaktion fördert, ohne die Privatsphäre zu
             beeinträchtigen. Ganz im Sinne des Gedanken: „Platz ist in der
             kleinsten Hütte“.`}
-            PartThreeH={`Integration in den historischen Kontext`}
-            PartThreeD={`Die sorgfältige Planung und Gestaltung des Hüslis stellt sicher,
+        PartThreeH={`Integration in den historischen Kontext`}
+        PartThreeD={`Die sorgfältige Planung und Gestaltung des Hüslis stellt sicher,
             dass es sich harmonisch in die bestehende Umgebung der
             historischen Villa Felsenhöhe einfügt. Das Projekt ist ein Beispiel
             dafür, wie moderne Architektur mit den Anforderungen des
@@ -48,8 +48,8 @@ export default function HuesliProjectPage() {
             Formen und Materialien so gewählt werden, dass sie sowohl
             modernen Ansprüchen gerecht werden als auch die historische
             Ästhetik ergänzen.`}
-            optionalProp1={`Vorzeigeprojekt für Kreuzlingen und darüber hinaus`}
-            optionalProp2={`Mit dem „Hüsli von der Felsenhöhe" strebt FREIHAUS an, ein
+        optionalProp1={`Vorzeigeprojekt für Kreuzlingen und darüber hinaus`}
+        optionalProp2={`Mit dem „Hüsli von der Felsenhöhe" strebt FREIHAUS an, ein
             Vorzeigeprojekt zu etablieren, das für die Gemeinde Kreuzlingen
             und andere Städte als Vorbild dienen kann. Es soll aufzeigen, wie
             durch innovative Baukonzepte und Materialien nicht nur
@@ -57,7 +57,7 @@ export default function HuesliProjectPage() {
             realisiert werden können. Dieses Projekt ist ein mutiger Schritt in
             die Zukunft des Bauens, der inspirieren und zum Nachahmen
             ermutigen soll.`}
-            />                
+      />
     </div>
-    )
+  );
 }

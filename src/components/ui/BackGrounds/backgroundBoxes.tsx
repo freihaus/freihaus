@@ -13,7 +13,8 @@ export function BackgroundBoxes() {
         Projekte
       </h1>
       <p className="text-center mt-8 text-custom-cyan relative z-20 text-lg">
-        Hier finden sie unsere Projekte, die wir in der Vergangenheit umgesetzt haben. Und jene die wir in Zukunft umsetzen werden.
+        Hier finden sie unsere Projekte, die wir in der Vergangenheit umgesetzt
+        haben. Und jene die wir in Zukunft umsetzen werden.
       </p>
     </div>
   );

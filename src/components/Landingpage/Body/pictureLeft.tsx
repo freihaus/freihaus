@@ -8,27 +8,26 @@ type PictureLeftProps = {
   imgSrc: string;
 };
 
-const PictureLeft: React.FC<PictureLeftProps> = ({ headText, cardHeader, cardContent, imgSrc }) => {
+const PictureLeft: React.FC<PictureLeftProps> = ({
+  headText,
+  cardHeader,
+  cardContent,
+  imgSrc,
+}) => {
   return (
     <div className="flex flex-col w-full justify-evenly  mt-10 items-center">
       <div className="mb-12 mt-8 bg-white border border-custom-cyan rounded-3xl max-w-[400px] shadow-2xl">
         <SmallHeadText text={headText} />
       </div>
       <div className="flex justify-evenly items-center flex-col lg:flex-row h-full">
-      <div className="border custom-border-cyan rounded-3xl overflow-hidden m-4 hidden md:flex">
-          <img 
-            src={imgSrc} 
-            className="w-[400px] md:w-[600px]"
-          />
+        <div className="border custom-border-cyan rounded-3xl overflow-hidden m-4 hidden md:flex">
+          <img src={imgSrc} className="w-[400px] md:w-[600px]" />
         </div>
         <TextCard header={cardHeader} content={cardContent} />
       </div>
       <div className="border custom-border-cyan rounded-3xl overflow-hidden m-4 flex md:hidden">
-          <img 
-            src={imgSrc} 
-            className="w-[400px] md:w-[600px]"
-          />
-        </div>
+        <img src={imgSrc} className="w-[400px] md:w-[600px]" />
+      </div>
     </div>
   );
 };

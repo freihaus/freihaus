@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const CustomIcon = ({ size = 24, color = "#000", ...props }) => (
   <svg
