@@ -1,5 +1,7 @@
-import Body from "@/components/Landingpage/Body/Body";
 import Header from "@/components/Landingpage/Header/Header";
+import Body from "@/components/Landingpage/Body/Body";
+
+
 
 export default function Home() {
   return (

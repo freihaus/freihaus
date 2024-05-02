@@ -1,5 +1,38 @@
 import { SpotlightHeader } from "@/components/ui/ProjectPages/SpotlightHeader";
 
+interface Metadata {
+  title: string;
+  description: string;
+  keywords: string;
+}
+
+export const metadata = {
+  title: "Ein kleines Dorf in St. Gallien - FREIHAUS Projekt für nachhaltiges Zusammenleben",
+  description: "Entdecken Sie 'Ein kleines Dorf in St. Gallien', ein innovatives Wohnprojekt von FREIHAUS, das generationsübergreifendes, klimabewusstes Zusammenleben in einer Gemeinschaft fördert. Inspiriert von traditionellen Werten und moderner Nachhaltigkeit, bietet dieses Projekt eine einzigartige Kombination aus Lebensqualität und ökologischer Verantwortung.",
+  keywords: [
+    "kleines Dorf St. Gallien", 
+    "nachhaltige Wohnprojekte", 
+    "FREIHAUS Dorfprojekt", 
+    "umweltfreundliches Wohnen", 
+    "Gemeinschaft und Nachhaltigkeit", 
+    "moderne und traditionelle Bautechniken",
+    "klimabewusstes Wohnen", 
+    "generationenübergreifendes Zusammenleben"
+  ],
+  authors: [
+    { name: 'Claudia Sieber Bethke', role: 'Authorin, Creative und Forscherin' },
+    { name: 'Nathael Oesterle', role: 'Gründer und Inhaber', url: 'https://freihaus.ch' },
+    { name: 'Dennis Diepolder', role: 'Webentwickler' }
+  ],
+  creator: 'Nathael Oesterle',
+  publisher: 'Freihaus',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+}
+
 export default function DorfProjectPage() {
   return (
     <div className="w-full flex flex-col">

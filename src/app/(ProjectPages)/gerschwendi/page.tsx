@@ -1,5 +1,39 @@
 import { SpotlightHeader } from "@/components/ui/ProjectPages/SpotlightHeader";
 
+interface Metadata {
+  title: string;
+  description: string;
+  keywords: string;
+}
+
+export const metadata = {
+  title: "Die Gerschwendi - Ein Seminarhaus mit Geschichte in Appenzell",
+  description: "Die Gerschwendi von FREIHAUS, ein Seminarhaus im Herzen von Appenzell, lädt zu Selbstfindung und geschichtlichem Verständnis ein. Erfahren Sie mehr über unsere Seminare und die einzigartige Geschichte der 'Hexengeschichte', die das Haus umgibt.",
+  keywords: [
+    "Gerschwendi", 
+    "Seminarhaus", 
+    "FREIHAUS Projekt", 
+    "Besinnung", 
+    "Appenzell", 
+    "Hexengeschichte", 
+    "historisches Seminarhaus",
+    "kulturelles Erbe",
+    "geistige Erneuerung"
+  ],
+  authors: [
+    { name: 'Claudia Sieber Bethke', role: 'Authorin, Creative und Forscherin' },
+    { name: 'Nathael Oesterle', role: 'Gründer und Inhaber', url: 'https://freihaus.ch' },
+    { name: 'Dennis Diepolder', role: 'Webentwickler' }
+  ],
+  creator: 'Nathael Oesterle',
+  publisher: 'Freihaus',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+}
+
 export default function GerschwendiProjectPage() {
   return (
     <div className="w-full flex flex-col">

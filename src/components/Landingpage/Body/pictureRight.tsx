@@ -1,5 +1,6 @@
 import TextCard from "@/components/ui/Cards/TextCard";
 import SmallHeadText from "../Header/SmallHeadText";
+import Image from "next/image";
 
 type PictureRightProps = {
   headText: string;
@@ -22,8 +23,8 @@ const PictureRight: React.FC<PictureRightProps> = ({
       <div className="flex justify-evenly items-center flex-col lg:flex-row h-full">
         <TextCard header={cardHeader} content={cardContent} />
 
-        <div className="border custom-border-cyan rounded-3xl overflow-hidden m-4">
-          <img src={imgSrc} className="w-[400px] md:w-[600px]" />
+        <div className="border custom-border-cyan rounded-3xl overflow-hidden m-4 shadow-2xl">
+          <Image src={imgSrc} alt="Picture" width={600} height={400} />
         </div>
       </div>
     </div>

@@ -1,5 +1,39 @@
 import { SpotlightHeader } from "@/components/ui/ProjectPages/SpotlightHeader";
 
+interface Metadata {
+  title: string;
+  description: string;
+  keywords: string;
+}
+
+export const metadata = {
+  title: "Das Hüsli von der Felsenhöhe - Pionierprojekt in Kreuzlingen",
+  description: "Entdecken Sie das 'Hüsli von der Felsenhöhe', ein Vorzeigeprojekt von FREIHAUS für nachhaltiges und verdichtetes Bauen in Kreuzlingen. Erfahren Sie, wie innovative Technologien wie 3D-Druck mit Hanfstroh und Naturkalk ökologisch verantwortliches Bauen neu definieren.",
+  keywords: [
+    "Hüsli Felsenhöhe", 
+    "nachhaltiges Bauen", 
+    "3D-Druck Architektur", 
+    "verdichtetes Bauen", 
+    "ökologisches Bauen", 
+    "bezahlbarer Wohnraum", 
+    "Kreuzlingen Architektur",
+    "moderne und traditionelle Bauweise",
+    "FREIHAUS Innovationsprojekt"
+  ],
+  authors: [
+    { name: 'Claudia Sieber Bethke', role: 'Authorin, Creative und Forscherin' },
+    { name: 'Nathael Oesterle', role: 'Gründer und Inhaber', url: 'https://freihaus.ch' },
+    { name: 'Dennis Diepolder', role: 'Webentwickler' }
+  ],
+  creator: 'Nathael Oesterle',
+  publisher: 'Freihaus',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+}
+
 export default function HuesliProjectPage() {
   return (
     <div className="w-full flex flex-col">

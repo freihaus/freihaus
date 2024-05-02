@@ -7,10 +7,23 @@ import Navbar from "@/components/Navbar/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Freihaus",
-  description:
-    "Willkommen bei FREIHAUS - Ihrem Zuhause mit Zukunft! Unsere Mission ist es, eine neue Ära des Bauens und Wohnens einzuleiten, inspiriert von den historischen Freihäusern. Mit unserer integralen Architektur und unserem Baumanagement erweitern wir die traditionellen Grenzen und bieten innovative Lösungen für Einzelpersonen, Familien und Organisationen. Unser ganzheitlicher Ansatz fördert das Wohlergehen und schafft inspirierende Räume. Entdecken Sie unsere Vision der Innovation im Wohnen, indem wir Mut zur Veränderung zeigen und nachhaltige Lebensräume schaffen. Unsere Projekte, wie die Gerschwendi und die Villa Felsenhöhe, vereinen Vergangenheit und Zukunft. Treten Sie unserem kreativen Labor, dem Sandkasten, bei und gestalten Sie mit uns die Zukunft des Wohnens. Engagieren Sie sich und werden Sie Teil unserer Gemeinschaft von Visionären und Pionieren im Wohn- und Bauwesen",
+  title: "Freihaus: Zukunft kann man bauen - Innovative Wohnlösungen",
+  description: "Freihaus steht für innovative Wohnkonzepte, die das historische Erbe mit modernen Bedürfnissen verbinden. Entdecken Sie unsere maßgeschneiderten Lösungen für nachhaltige und zukunftsorientierte Lebensräume.",
+  keywords: ["Freihaus", "nachhaltige Wohnlösungen", "innovative Wohnkonzepte", "zukunftsorientiertes Wohnen", "maßgeschneiderte Lebensräume", "ökologisches Bauen", "Revitalisierung historischer Gebäude"],
+  authors: [
+    { name: 'Nathael Oesterle', url: 'https://freihaus.ch' },
+    { name: 'Claudia Sieber Bethke'},
+    { name: 'Dennis Diepolder'}
+  ],
+  creator: 'Nathael Oesterle',
+  publisher: 'Freihaus',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
 };
+
 
 export default function RootLayout({
   children,

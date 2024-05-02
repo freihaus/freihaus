@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 
 interface ImageSliderProps {
   images: string[];
@@ -35,18 +36,18 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
   return (
     <div className="flex flex-col items-center border-2 border-cyan-500 rounded-3xl overflow-hidden m-4 relative w-[310px] md:w-[600px] h-[400px] md:h-[600px] shadow-2xl">
       {images.map((image, index) => (
-        <img
+        <Image
           key={image}
           src={image}
           alt={`Bild ${index + 1}`}
+          fill={true}
           style={{
-            width: "100%",
-            height: "100%",
             position: "absolute",
+            objectFit: "cover",
             transition: `opacity ${fadeDuration / 1000}s ease`,
             opacity:
               index === currentIndex ? 1 : index === nextIndex ? opacity : 0,
-            objectFit: "cover",
+            
           }}
         />
       ))}

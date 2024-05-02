@@ -42,7 +42,7 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
       <div className="w-full flex justify-center items-center">
         <Link
           href="/projekte"
-          className="text-3xl font-bold relative text-custom-brown px-4 py-2 rounded-xl bg-custom-cyan my-4 hidden md:flex w-52 text-center justify-center animate-bounce"
+          className="text-3xl font-bold relative text-custom-brown px-4 py-2 rounded-xl bg-custom-cyan my-4 hidden md:flex w-52 text-center justify-center animate-bounce mt-12 shadow-2xl"
         >
           Zu den Projekten
         </Link>

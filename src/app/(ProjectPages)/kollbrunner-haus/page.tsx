@@ -1,5 +1,39 @@
 import { SpotlightHeader } from "@/components/ui/ProjectPages/SpotlightHeader";
 
+interface Metadata {
+        title: string;
+        description: string;
+        keywords: string;
+      }
+      
+      export const metadata = {
+        title: "Das Kollbrunner Haus - Ein kulturelles Erbe in Hüttlingen revitalisiert",
+        description: "Das Kollbrunner Haus, einst Heimstätte des Schweizer Schriftstellers Oskar Kollbrunner, vereint kulturelle Geschichte und modernes Wohnkonzept. Entdecken Sie, wie das FREIHAUS Team dieses historische Fachwerkhaus zu einem dynamischen Ort für kulturellen Austausch und kreative Entwicklung umgestaltet hat.",
+        keywords: [
+          "Kollbrunner Haus", 
+          "kulturelles Erbe", 
+          "Fachwerkhaus Hüttlingen", 
+          "Oskar Kollbrunner",
+          "kultureller Austausch",
+          "kreative Entwicklung",
+          "Co-Working kulturell",
+          "historische Revitalisierung",
+          "FREIHAUS Projekt"
+        ],
+        authors: [
+          { name: 'Claudia Sieber Bethke', role: 'Authorin, Creative und Forscherin' },
+          { name: 'Nathael Oesterle', role: 'Gründer und Inhaber', url: 'https://freihaus.ch' },
+          { name: 'Dennis Diepolder', role: 'Webentwickler' }
+        ],
+        creator: 'Nathael Oesterle',
+        publisher: 'Freihaus',
+        formatDetection: {
+          email: false,
+          address: false,
+          telephone: false,
+        },
+      }
+
 export default function KollbrunnerProjectPage() {
   return (
     <div className="w-full flex flex-col">

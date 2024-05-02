@@ -32,7 +32,22 @@ module.exports = {
         'custom-cyan': 'rgb(1, 191, 191)',
         'custom-brown': 'rgb(52, 35, 30)',
       },
+      backdropBlur: {
+        'none': '0',
+        'sm': '4px',
+        'DEFAULT': '8px',
+        'md': '12px',
+        'lg': '16px',
+        'xl': '24px',
+        '2xl': '40px',
+      }
     },
+    
+  },
+  variants: {
+    extend: {
+      backdropBlur: ['responsive']
+    }
   },
   plugins: [
     addVariablesForColors,
