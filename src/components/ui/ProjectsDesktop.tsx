@@ -3,6 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { BackgroundBoxes } from "./BackGrounds/backgroundBoxes";
 import ProjectCardSection from "@/components/ui/Cards/3DCard/ProjectCardSection";
 import { useEffect } from "react";
+import Impressum from "../Navbar/Footer";
 
 export default function ProjectsDesktop() {
   const controls = useAnimation();
@@ -45,6 +46,9 @@ export default function ProjectsDesktop() {
       >
         <ProjectCardSection />
       </motion.div>
+      <div className="w-full rounded-3xl bg-white bg-opacity-40 m-4 p-4 flex justify-center items-center">
+        <Impressum />
+      </div>
     </motion.div>
   );
 }

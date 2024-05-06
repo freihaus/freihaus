@@ -3,6 +3,7 @@
 import TwoDCard from "./Cards/3DCard/2d-card";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
+import Impressum from "../Navbar/Footer";
 
 export default function ProjectsMobile() {
   const { ref: ref1, inView: inView1 } = useInView({
@@ -135,6 +136,9 @@ export default function ProjectsMobile() {
             cardHref="/sandkasten"
           />
         </motion.div>
+      </div>
+      <div className="w-full rounded-3xl bg-white bg-opacity-40 m-4 p-4 flex justify-center items-center">
+        <Impressum />
       </div>
     </div>
   );

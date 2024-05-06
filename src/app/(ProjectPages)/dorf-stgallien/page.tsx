@@ -1,3 +1,4 @@
+import Impressum from "@/components/Navbar/Footer";
 import { SpotlightHeader } from "@/components/ui/ProjectPages/SpotlightHeader";
 
 interface Metadata {
@@ -60,6 +61,7 @@ export default function DorfProjectPage() {
         PartThreeH={`Eine Stiftung fördert Sinnstiftung`}
         PartThreeD={`Unterstützt durch die Kollbrunner-Stiftung, wird das Dorf auch ein Zentrum für Quellenarbeit und historische Forschung sein. Diese Arbeit ist entscheidend, um die Bedeutung und die Geschichten des Ortes zu verstehen und sie in die Gestaltung des Dorflebens einzubringen. Das tiefe Verständnis der Vergangenheit hilft uns, Räume zu schaffen, die nicht nur bewohnbar, sondern lebens- und erhaltenswert sind.`}
       />
+      
     </div>
   );
 }

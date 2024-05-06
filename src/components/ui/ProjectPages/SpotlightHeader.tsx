@@ -1,3 +1,4 @@
+import Impressum from "@/components/Navbar/Footer";
 import { CallToAction } from "./CallToAction";
 import { Spotlight } from "./Spotlight";
 import { TextGenerateEffect } from "./text-generate-effect";
@@ -247,11 +248,15 @@ export function SpotlightHeader({
           </div>
         )}
 
-        <div className="w-full flex justify-center md:mt-12">
-          <div className="max-w-[1000px] text-center mx-20">
+        <div className="w-full flex justify-center md:mt-18">
+          <div className="max-w-[1000px] text-center mx-20 mt-12">
             <CallToAction />
           </div>
         </div>
+        <div className="text-white mt-24 mb-12 w-full">
+          <Impressum />
+        </div>
+        
       </div>
     </div>
   );

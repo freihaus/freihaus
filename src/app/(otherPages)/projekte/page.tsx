@@ -1,3 +1,4 @@
+import Impressum from "@/components/Navbar/Footer";
 import ProjectsDesktop from "@/components/ui/ProjectsDesktop";
 import ProjectsMobile from '@/components/ui/ProjectsMobil';
 
@@ -36,6 +37,7 @@ export default function Projects() {
       <div className="mt-18 flex md:hidden">
         <ProjectsMobile />
       </div>
+
     </div>
   );
 }

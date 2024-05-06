@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { GridBackgroundDemo } from "@/components/ui/BackGrounds/GridBackground";
 import Navbar from "@/components/Navbar/Navbar";
+import Impressum from "@/components/Navbar/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,12 +38,7 @@ export default function RootLayout({
           {/* <NavbarMenu /> */}
           <Navbar />
         </div>
-
-        <div className="fixed w-full h-screen z-0">
-          <GridBackgroundDemo />
-        </div>
-
-        {children}
+        {children}     
       </body>
     </html>
   );
