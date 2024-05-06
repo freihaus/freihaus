@@ -1,6 +1,24 @@
 import BigHeadText from "@/components/Landingpage/Header/BigHeadText";
 import SmallHeadText from "@/components/Landingpage/Header/SmallHeadText";
 
+export const metadata = {
+  title: "Freihaus - AGB",
+  description: "AGB Informationen",
+  keywords: "AGB",
+  authors: [
+    { name: 'Claudia Sieber Bethke', role: 'Authorin, Creative und Forscherin' },
+    { name: 'Nathael Oesterle', role: 'Gründer und Inhaber', url: 'https://freihaus.ch' },
+    { name: 'Dennis Diepolder', role: 'Webentwickler' }
+  ],
+  creator: 'Nathael Oesterle',
+  publisher: 'Freihaus',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+}
+
 export default function AGB() {
   return (
     <div className="w-full relative flex flex-col items-center z-20 h-screen bg-white">

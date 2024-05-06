@@ -6,6 +6,8 @@ import Impressum from "@/components/Navbar/Footer";
 import { useState } from "react";
 import { sendMail } from "@/app/actions";
 
+
+
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -66,7 +68,8 @@ export default function Contact() {
                   name="agb"
                   required
                 />
-                <p>Ich akzeptiere die Allgemeine Geschäftsbedingungen und habe die Datenschutzerklärung gelesen.</p>
+                <p>Ich akzeptiere die <a href="/agb" target="_blank" className="underline">Allgemeine Geschäftsbedingungen</a> und habe die <a href="/datenschutz" target="_blank" className="underline">Datenschutzerklärung</a> gelesen.</p>
+
               </div>
             </div>
             <button className="px-4 py-2 bg-custom-cyan text-custom-brown rounded-full m-2 hover:scale-110 transition ease-in-out duration-100" type="submit" onClick={handleClick}>Senden</button>
