@@ -6,7 +6,10 @@ export default function GaleriePage() {
   return (
     <div className="w-full relative flex flex-col items-center z-20 h-screen">
       <div className="flex flex-col items-center mt-20 w-full h-screen">
-        <BigHeadText text="Galerie" />
+        <div className="hidden md:block">
+          <BigHeadText text="Galerie" />
+        </div>
+        
         <ParallaxScroll images={images} />
       </div>
     </div>
