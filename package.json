@@ -11,8 +11,10 @@
   "dependencies": {
     "clsx": "^2.1.0",
     "framer-motion": "^11.1.7",
+    "js-cookie": "^3.0.5",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.2",
+    "next-cookies": "^2.0.3",
     "react": "^18",
     "react-dom": "^18",
     "react-element-to-jsx-string": "^15.0.0",
@@ -24,6 +26,7 @@
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
