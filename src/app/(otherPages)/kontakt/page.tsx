@@ -18,6 +18,11 @@ export default function Contact() {
     event.preventDefault();
     const response = await sendMail(name, email, message);
     console.log(response);
+    if (response.message === "Email send successfully") {
+      setName("");
+      setEmail("");
+      setMessage("");
+    }
   }
   return (
     <div className="w-full relative flex flex-col items-center justify-between z-20 h-screen">
