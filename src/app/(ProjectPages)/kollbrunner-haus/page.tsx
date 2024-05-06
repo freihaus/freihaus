@@ -39,9 +39,9 @@ export default function KollbrunnerProjectPage() {
     <div className="w-full flex flex-col">
       <SpotlightHeader
         images={[
-          "https://dr7f261fq4afc.cloudfront.net/9.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/9.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/9.jpg",
+          "/koll/huet2.jpeg",
+          "/about/about5.jpeg",
+          "/koll/huet7.jpeg",
         ]}
         header="Das Kollbrunner Haus"
         description={`Erbe und Inspiration

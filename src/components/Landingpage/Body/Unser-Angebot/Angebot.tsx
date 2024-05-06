@@ -1,5 +1,4 @@
-import TextCard from "@/components/ui/Cards/TextCard";
-import SmallHeadText from "../../Header/SmallHeadText";
+
 import PictureRight from "../pictureRight";
 
 export default function Angebot() {
@@ -13,7 +12,7 @@ export default function Angebot() {
                         sichern. Durch intensive Quellenarbeit und maßgeschneiderte
                         Umbauten verbinden wir historisches Erbe mit modernen
                         Bedürfnissen, ohne die Seele des Raumes zu verlieren."
-        imgSrc="https://dr7f261fq4afc.cloudfront.net/angebot.webp"
+        imgSrc="/home/home3.jpeg"
       />
     </div>
   );

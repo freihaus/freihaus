@@ -29,6 +29,8 @@ export default function TwoDCard({
             alt="Image description"
             width={280}
             height={280}
+            className="rounded-xl h-[200px] object-cover"
+
             placeholder="empty"
           />
           <div className="flex justify-between items-center w-full mt-6 p-4">

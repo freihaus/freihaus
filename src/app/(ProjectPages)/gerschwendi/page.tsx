@@ -39,8 +39,8 @@ export default function GerschwendiProjectPage() {
     <div className="w-full flex flex-col">
       <SpotlightHeader
         images={[
-          "https://dr7f261fq4afc.cloudfront.net/3.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/3.jpg",
+          "/gersch/ger2.jpeg",
+          "/gersch/ger10.jpeg",
         ]}
         header="Die Gerschwendi"
         description={`Ein Haus im Niemandsland. Eine Oase der Besinnung im Herzen von Appenzell

@@ -39,8 +39,8 @@ export default function HuesliProjectPage() {
     <div className="w-full flex flex-col">
       <SpotlightHeader
         images={[
-          "https://dr7f261fq4afc.cloudfront.net/3.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/3.jpg",
+          "/huesli/huesli-1.jpeg",
+          "/huesli/huesli-2.jpeg",
         ]}
         header="Das Hüsli von der Felsenhöhe"
         description={`Pionierarbeit für

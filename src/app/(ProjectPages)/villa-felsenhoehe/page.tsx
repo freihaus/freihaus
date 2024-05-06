@@ -39,8 +39,8 @@ export default function VillaProjectPage() {
     <div className="w-full flex flex-col">
       <SpotlightHeader
         images={[
-          "https://dr7f261fq4afc.cloudfront.net/1.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/1.jpg",
+          "/villa/vil20.jpeg",
+          "/villa/vil2.jpeg",
         ]}
         header="Villa Felsenhöhe"
         description={`Ein historisches Juwel neu

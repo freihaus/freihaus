@@ -13,7 +13,7 @@ export default function Vision() {
                         unserer Projekte spiegelt unsere Bereitschaft wieder, alten
                         Gebäuden neues Leben einzuhauchen und nachhaltige,
                         zeitgemäße Lebensräume zu schaffen."
-        imgSrc="https://dr7f261fq4afc.cloudfront.net/vision.webp"
+        imgSrc="/home/home2.jpeg"
       />
     </div>
   );

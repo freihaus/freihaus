@@ -14,17 +14,16 @@ export default function Projekte() {
                        Gemeinwohlökonomie und werteorientierte Zukunftsgestaltung in
                        einer lebendigen Gemeinschaft vereint."
         imgSrcs={[
-          "https://dr7f261fq4afc.cloudfront.net/1.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/2.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/3.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/4.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/5.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/6.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/7.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/8.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/9.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/10.jpg",
-          "https://dr7f261fq4afc.cloudfront.net/11.jpg",
+          "/gersch/ger2.jpeg",
+          "/gersch/ger9.jpeg",
+          "/gersch/ger10.jpeg",
+          "/gersch/ger15-2.jpeg",
+          "/koll/huet1.jpeg",
+          "/villa/vil16.jpeg",
+          "/villa/vil19.jpeg",
+          "/villa/vil12.jpeg",
+          "/about/about4.jpeg",
+          "/koll/huet8.jpeg",
         ]}
       />
     </div>
