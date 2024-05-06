@@ -12,7 +12,6 @@ export default function Contact() {
 
   const handleClick = async (event: any) => {
     event.preventDefault();
-    console.log(name, email, message);
     try {
       const response = await fetch("https://zw3nnspqw6.execute-api.eu-central-1.amazonaws.com/dev/mail", {
         method: "POST",
