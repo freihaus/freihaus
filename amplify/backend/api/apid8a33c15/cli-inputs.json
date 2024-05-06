@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/mail": {
+      "name": "/mail",
+      "lambdaFunction": "homepageapia6227032",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
