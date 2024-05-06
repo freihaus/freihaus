@@ -29,6 +29,7 @@ export default function TwoDCard({
             alt="Image description"
             width={280}
             height={280}
+            loading="eager"
             className="rounded-xl h-[200px] object-cover"
 
             placeholder="empty"

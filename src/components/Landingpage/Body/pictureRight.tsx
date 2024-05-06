@@ -24,7 +24,7 @@ const PictureRight: React.FC<PictureRightProps> = ({
         <TextCard header={cardHeader} content={cardContent} />
 
         <div className="border custom-border-cyan rounded-3xl overflow-hidden m-4 shadow-2xl">
-          <Image src={imgSrc} alt="Picture" width={600} height={400} />
+          <Image src={imgSrc} alt="Picture" width={600} height={400} loading="eager" />
         </div>
       </div>
     </div>

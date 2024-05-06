@@ -48,6 +48,7 @@ export default function About() {
                       width={800}
                       height={800}
                       alt="about1"
+                      loading="eager"
                     />
                   </div>
                 </div>
@@ -66,6 +67,7 @@ export default function About() {
                       width={800}
                       height={800}
                       alt="about1"
+                      loading="eager"
                     />
                   </div>
                 </div>
@@ -87,6 +89,7 @@ export default function About() {
                       width={800}
                       height={800}
                       alt="about2"
+                      loading="eager"
                     />
                   </div>
                 </div>
@@ -116,6 +119,7 @@ export default function About() {
                       width={800}
                       height={800}
                       alt="about3"
+                      loading="eager"
                     />
                   </div>
                 </div>

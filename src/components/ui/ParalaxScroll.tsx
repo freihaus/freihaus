@@ -49,6 +49,7 @@ export const ParallaxScroll = ({
                 height="500"
                 width="500"
                 alt="thumbnail"
+                loading="eager"
               />
             </motion.div>
           ))}
@@ -62,6 +63,7 @@ export const ParallaxScroll = ({
                 height="500"
                 width="500"
                 alt="thumbnail"
+                loading="eager"
               />
             </motion.div>
           ))}
@@ -75,6 +77,7 @@ export const ParallaxScroll = ({
                 height="500"
                 width="500"
                 alt="thumbnail"
+                loading="eager"
               />
             </motion.div>
           ))}

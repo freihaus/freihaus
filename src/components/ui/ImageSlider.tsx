@@ -41,6 +41,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
           src={image}
           alt={`Bild ${index + 1}`}
           fill={true}
+          loading="eager"
           style={{
             position: "absolute",
             objectFit: "cover",

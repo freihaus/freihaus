@@ -86,6 +86,7 @@ export function SpotlightHeader({
                   height={800}
                   placeholder="empty"
                   className="h-[600px] object-cover"
+                  loading="eager"
                 />
               </div>
 
@@ -96,6 +97,7 @@ export function SpotlightHeader({
                   width={500}
                   height={500}
                   placeholder="empty"
+                  loading="eager"
                 />
               </div>
             </div>
@@ -132,6 +134,7 @@ export function SpotlightHeader({
                   height={800}
                   placeholder="empty"
                   className="h-[600px] object-cover"
+                  loading="eager"
                 />
               </div>
 
@@ -142,6 +145,7 @@ export function SpotlightHeader({
                   width={500}
                   height={500}
                   placeholder="empty"
+                  loading="eager"
                 />
               </div>
             </div>
@@ -181,6 +185,7 @@ export function SpotlightHeader({
                     height={800}
                     placeholder="empty"
                     className="h-[600px] object-cover"
+                    loading="eager"
                   />
                 </div>
 
@@ -191,6 +196,7 @@ export function SpotlightHeader({
                     width={500}
                     height={500}
                     placeholder="empty"
+                    loading="eager"
                   />
                 </div>
               </div>
@@ -231,6 +237,7 @@ export function SpotlightHeader({
                     height={800}
                     placeholder="empty"
                     className="h-[600px] object-cover"
+                    loading="eager"
                   />
                 </div>
 
@@ -241,6 +248,7 @@ export function SpotlightHeader({
                     width={500}
                     height={500}
                     placeholder="empty"
+                    loading="eager"
                   />
                 </div>
               </div>
