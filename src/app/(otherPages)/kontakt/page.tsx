@@ -12,6 +12,7 @@ export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [isChecked, setIsChecked] = useState(false);
 
 
   const handleClick = async (event: any) => {
@@ -72,13 +73,20 @@ export default function Contact() {
                   type="checkbox"
                   name="agb"
                   required
+                  checked={isChecked}
+                  onChange={(e) => setIsChecked(e.target.checked)}
                 />
                 <p>Ich akzeptiere die <a href="/agb" target="_blank" className="underline">Allgemeine Geschäftsbedingungen</a> und habe die <a href="/datenschutz" target="_blank" className="underline">Datenschutzerklärung</a> gelesen.</p>
 
               </div>
             </div>
-            <button className="px-4 py-2 bg-custom-cyan text-custom-brown rounded-full m-2 hover:scale-110 transition ease-in-out duration-100" type="submit" onClick={handleClick}>Senden</button>
-          </form>
+              <button 
+                className="px-4 py-2 bg-custom-cyan text-custom-brown rounded-full m-2 hover:scale-110 transition ease-in-out duration-100 disabled:bg-neutral-600" 
+                type="submit" 
+                onClick={handleClick} 
+                disabled={!isChecked} 
+              >Senden</button>
+            </form>
         </div>
       </div>
       <div className="w-full rounded-3xl bg-white bg-opacity-40 m-4 p-4 flex justify-center items-center">
