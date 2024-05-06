@@ -7,7 +7,7 @@ export default function Navbar() {
   const [showProjects, setShowProjects] = useState(false);
   const [showContacts, setShowContacts] = useState(false);
 
-  const handleMouseEnter = (itemName) => {
+  const handleMouseEnter = (itemName: any) => {
     if (itemName === "Projekte") {
       setShowProjects(true);
     } else if (itemName === "Kontakt") {
@@ -15,7 +15,7 @@ export default function Navbar() {
     }
   };
   
-  const handleMouseLeave = (itemName) => {
+  const handleMouseLeave = (itemName:any ) => {
     if (itemName === "Projekte") {
       setShowProjects(false);
     } else if (itemName === "Kontakt") {
