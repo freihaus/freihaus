@@ -13,3 +13,15 @@ export const NavbarItems: {
   { name: "Über Uns", icon: FaPeopleGroup, link: "/ueberuns" },
   { name: "Kontakt", icon: MdOutlineContactPhone, link: "/kontakt" },
 ];
+
+export const ProjektItems: {
+  name: string;
+  link: string;
+}[] = [
+  { name: "Die Villa Felsenhöhe", link: "/villa-felsenhoehe" },
+  { name: "Die Gerschwendi", link: "/gerschwendi" },
+  { name: "Das Kollbrunner Haus", link: "/kollbrunner-haus" },
+  { name: "Das Hüsli von der Felsenhöhe", link: "/huesli" },
+  { name: "Ein kleines Dorf in St. Gallien", link: "/dorf-stgallien" },
+  { name: "Der Sandkasten", link: "/sandkasten" },
+]
