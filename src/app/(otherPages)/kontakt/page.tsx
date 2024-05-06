@@ -4,39 +4,19 @@ import BigHeadText from "@/components/Landingpage/Header/BigHeadText";
 import SmallHeadText from "@/components/Landingpage/Header/SmallHeadText";
 import Impressum from "@/components/Navbar/Footer";
 import { useState } from "react";
+import { sendMail } from "@/app/actions";
 
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+
   const handleClick = async (event: any) => {
     event.preventDefault();
-    try {
-      const response = await fetch("https://zw3nnspqw6.execute-api.eu-central-1.amazonaws.com/dev/mail", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          message,
-        }),
-      });
-  
-      if (response.ok) {
-        const responseData = await response.json();
-        console.log("Success:", responseData);
-      } else {
-        console.error("Error:", response.statusText);
-      }
-    } catch (error) {
-      console.error("Error:", error);
-    }
-  };
-  
-
+    const response = await sendMail(name, email, message);
+    console.log(response);
+  }
   return (
     <div className="w-full relative flex flex-col items-center justify-between z-20 h-screen">
       <div className="flex flex-col items-center mt-16">
