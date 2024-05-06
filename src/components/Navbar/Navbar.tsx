@@ -24,7 +24,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex justify-around p-4 bg-gray-200 mx-8 border-transparent rounded-b-full items-center">
+    <nav className="flex justify-around p-4 bg-gray-200 md:mx-8 border-transparent md:rounded-b-full items-center">
       {NavbarItems.map((item) => (
         <div key={item.name} className="flex items-center space-x-2">
           <div
@@ -53,7 +53,7 @@ export default function Navbar() {
               </div>
             )}
             {item.name === "Kontakt" && showContacts && (
-              <div className="flex flex-col absolute top-full w-[200px] left-0 bg-gray-200 p-2 rounded-md space-y-4">
+              <div className="flex flex-col absolute top-full w-[200px] right-0 bg-gray-200 p-2 rounded-md space-y-4">
                 {FooterItems.map((contact) => (
                   <Link href={contact.link} key={contact.name}>
                     <p className="block hover:text-custom-cyan transition duration-100 ease-in-out">
