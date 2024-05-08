@@ -31,7 +31,6 @@ export default function TwoDCard({
             height={280}
             loading="eager"
             className="rounded-xl h-[200px] object-cover"
-
             placeholder="empty"
           />
           <div className="flex justify-between items-center w-full mt-6 p-4">

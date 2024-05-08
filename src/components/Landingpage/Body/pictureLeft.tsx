@@ -22,12 +22,24 @@ const PictureLeft: React.FC<PictureLeftProps> = ({
       </div>
       <div className="flex justify-evenly items-center flex-col lg:flex-row h-full">
         <div className="border custom-border-cyan rounded-3xl overflow-hidden m-4 hidden md:flex shadow-2xl">
-          <Image src={imgSrc} alt="Picture" width={600} height={400} loading="eager"/>
+          <Image
+            src={imgSrc}
+            alt="Picture"
+            width={600}
+            height={400}
+            loading="eager"
+          />
         </div>
         <TextCard header={cardHeader} content={cardContent} />
       </div>
       <div className="border custom-border-cyan rounded-3xl overflow-hidden m-4 flex md:hidden shadow-2xl">
-      <Image src={imgSrc} alt="Picture" width={600} height={400} loading='eager'/>
+        <Image
+          src={imgSrc}
+          alt="Picture"
+          width={600}
+          height={400}
+          loading="eager"
+        />
       </div>
     </div>
   );

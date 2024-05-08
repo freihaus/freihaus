@@ -8,40 +8,46 @@ interface Metadata {
 }
 
 export const metadata = {
-  title: "Ein kleines Dorf in St. Gallien - FREIHAUS Projekt für nachhaltiges Zusammenleben",
-  description: "Entdecken Sie 'Ein kleines Dorf in St. Gallien', ein innovatives Wohnprojekt von FREIHAUS, das generationsübergreifendes, klimabewusstes Zusammenleben in einer Gemeinschaft fördert. Inspiriert von traditionellen Werten und moderner Nachhaltigkeit, bietet dieses Projekt eine einzigartige Kombination aus Lebensqualität und ökologischer Verantwortung.",
+  title:
+    "Ein kleines Dorf in St. Gallien - FREIHAUS Projekt für nachhaltiges Zusammenleben",
+  description:
+    "Entdecken Sie 'Ein kleines Dorf in St. Gallien', ein innovatives Wohnprojekt von FREIHAUS, das generationsübergreifendes, klimabewusstes Zusammenleben in einer Gemeinschaft fördert. Inspiriert von traditionellen Werten und moderner Nachhaltigkeit, bietet dieses Projekt eine einzigartige Kombination aus Lebensqualität und ökologischer Verantwortung.",
   keywords: [
-    "kleines Dorf St. Gallien", 
-    "nachhaltige Wohnprojekte", 
-    "FREIHAUS Dorfprojekt", 
-    "umweltfreundliches Wohnen", 
-    "Gemeinschaft und Nachhaltigkeit", 
+    "kleines Dorf St. Gallien",
+    "nachhaltige Wohnprojekte",
+    "FREIHAUS Dorfprojekt",
+    "umweltfreundliches Wohnen",
+    "Gemeinschaft und Nachhaltigkeit",
     "moderne und traditionelle Bautechniken",
-    "klimabewusstes Wohnen", 
-    "generationenübergreifendes Zusammenleben"
+    "klimabewusstes Wohnen",
+    "generationenübergreifendes Zusammenleben",
   ],
   authors: [
-    { name: 'Claudia Sieber Bethke', role: 'Authorin, Creative und Forscherin' },
-    { name: 'Nathael Oesterle', role: 'Gründer und Inhaber', url: 'https://freihaus.ch' },
-    { name: 'Dennis Diepolder', role: 'Webentwickler' }
+    {
+      name: "Claudia Sieber Bethke",
+      role: "Authorin, Creative und Forscherin",
+    },
+    {
+      name: "Nathael Oesterle",
+      role: "Gründer und Inhaber",
+      url: "https://freihaus.ch",
+    },
+    { name: "Dennis Diepolder", role: "Webentwickler" },
   ],
-  creator: 'Nathael Oesterle',
-  publisher: 'Freihaus',
+  creator: "Nathael Oesterle",
+  publisher: "Freihaus",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-}
+};
 
 export default function DorfProjectPage() {
   return (
     <div className="w-full flex flex-col">
       <SpotlightHeader
-        images={[
-          "/stgall/stgall.jpeg",
-          "/stgall/stgall3.jpeg"
-        ]}
+        images={["/stgall/stgall.jpeg", "/stgall/stgall3.jpeg"]}
         header="Ein kleines Dorf in St.Gallien"
         description={`Inspiriert von Umberto Ecos Darstellung eines kleinen,
                 widerstandsfähigen Dörfchens in "Asterix", plant FREIHAUS die
@@ -61,7 +67,6 @@ export default function DorfProjectPage() {
         PartThreeH={`Eine Stiftung fördert Sinnstiftung`}
         PartThreeD={`Unterstützt durch die Kollbrunner-Stiftung, wird das Dorf auch ein Zentrum für Quellenarbeit und historische Forschung sein. Diese Arbeit ist entscheidend, um die Bedeutung und die Geschichten des Ortes zu verstehen und sie in die Gestaltung des Dorflebens einzubringen. Das tiefe Verständnis der Vergangenheit hilft uns, Räume zu schaffen, die nicht nur bewohnbar, sondern lebens- und erhaltenswert sind.`}
       />
-      
     </div>
   );
 }

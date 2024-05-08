@@ -264,7 +264,6 @@ export function SpotlightHeader({
         <div className="text-white mt-24 mb-12 w-full">
           <Impressum />
         </div>
-        
       </div>
     </div>
   );

@@ -11,43 +11,48 @@ interface Metadata {
 
 export const metadata = {
   title: "Der Sandkasten - Kreativität und Innovation bei FREIHAUS",
-  description: "Entdecken Sie 'Der Sandkasten', einen interaktiven Raum für Kreativität und Zusammenarbeit bei FREIHAUS. Hier wird experimentiert, inspiriert und Neues geschaffen. Treten Sie in einen Raum, der dazu einlädt, Ideen frei zu entwickeln und gemeinsam Visionen zu verwirklichen.",
+  description:
+    "Entdecken Sie 'Der Sandkasten', einen interaktiven Raum für Kreativität und Zusammenarbeit bei FREIHAUS. Hier wird experimentiert, inspiriert und Neues geschaffen. Treten Sie in einen Raum, der dazu einlädt, Ideen frei zu entwickeln und gemeinsam Visionen zu verwirklichen.",
   keywords: [
-    "Sandkasten FREIHAUS", 
-    "kreativer Arbeitsraum", 
-    "Innovation Lab", 
-    "Kollaborationsraum", 
+    "Sandkasten FREIHAUS",
+    "kreativer Arbeitsraum",
+    "Innovation Lab",
+    "Kollaborationsraum",
     "Ideenentwicklung",
     "experimentelles Arbeiten",
     "Kreativitätsförderung",
     "gemeinschaftliche Kreation",
-    "innovative Projekte"
+    "innovative Projekte",
   ],
   authors: [
-    { name: 'Claudia Sieber Bethke', role: 'Authorin, Creative und Forscherin' },
-    { name: 'Nathael Oesterle', role: 'Gründer und Inhaber', url: 'https://freihaus.ch' },
-    { name: 'Dennis Diepolder', role: 'Webentwickler' }
+    {
+      name: "Claudia Sieber Bethke",
+      role: "Authorin, Creative und Forscherin",
+    },
+    {
+      name: "Nathael Oesterle",
+      role: "Gründer und Inhaber",
+      url: "https://freihaus.ch",
+    },
+    { name: "Dennis Diepolder", role: "Webentwickler" },
   ],
-  creator: 'Nathael Oesterle',
-  publisher: 'Freihaus',
+  creator: "Nathael Oesterle",
+  publisher: "Freihaus",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-}
-
+};
 
 export default function SandkastenProjectPage() {
-
-
   return (
     <div className="w-full flex flex-col">
       <SpotlightHeader
         images={[
-          '/huesli/huesli-3.jpeg',
-          '/sand/sand1.jpeg',
-          '/sand/sand2.jpeg',
+          "/huesli/huesli-3.jpeg",
+          "/sand/sand1.jpeg",
+          "/sand/sand2.jpeg",
         ]}
         header="Unser Sandkasten: Innovationslabor für die Zukunft des Bauens und Wohnens"
         description={`Im „Sandkasten“ von FREIHAUS vereinen wir Visionen für das Bauen, Wohnen und Beleben unserer zukünftigen Lebensräume. Dieser Bereich, der gerade aufgebaut wird, ist als dynamisches Forum konzipiert, in dem Interessierte zusammenkommen, um zu forschen, zu entwickeln und zu lernen. Hier wird die Zukunft des Wohnens nicht nur diskutiert, sondern aktiv gestaltet.`}

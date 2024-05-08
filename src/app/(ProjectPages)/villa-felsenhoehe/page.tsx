@@ -8,40 +8,45 @@ interface Metadata {
 
 export const metadata = {
   title: "Villa Felsenhöhe - Ein historisches Juwel am See neu belebt",
-  description: "Entdecken Sie die Villa Felsenhöhe, ein historisches Anwesen revitalisiert von FREIHAUS GmbH, das heute als dynamische Heimstätte für eine familiäre Gemeinschaft dient. Erfahren Sie, wie die Villa sowohl für modernes Arbeiten als auch für gemeinschaftliches Wohnen umgestaltet wurde, unterstützt von nachhaltigen Praktiken und technologischer Innovation.",
+  description:
+    "Entdecken Sie die Villa Felsenhöhe, ein historisches Anwesen revitalisiert von FREIHAUS GmbH, das heute als dynamische Heimstätte für eine familiäre Gemeinschaft dient. Erfahren Sie, wie die Villa sowohl für modernes Arbeiten als auch für gemeinschaftliches Wohnen umgestaltet wurde, unterstützt von nachhaltigen Praktiken und technologischer Innovation.",
   keywords: [
-    "Villa Felsenhöhe", 
-    "historisches Anwesen", 
-    "FREIHAUS Projekt", 
-    "nachhaltiges Wohnen", 
-    "Coworking Villa", 
+    "Villa Felsenhöhe",
+    "historisches Anwesen",
+    "FREIHAUS Projekt",
+    "nachhaltiges Wohnen",
+    "Coworking Villa",
     "moderne Arbeitsräume",
     "Gemeinschaftsleben",
     "Lebensformen der Zukunft",
-    "ökologisches Handeln"
+    "ökologisches Handeln",
   ],
   authors: [
-    { name: 'Claudia Sieber Bethke', role: 'Authorin, Creative und Forscherin' },
-    { name: 'Nathael Oesterle', role: 'Gründer und Inhaber', url: 'https://freihaus.ch' },
-    { name: 'Dennis Diepolder', role: 'Webentwickler' }
+    {
+      name: "Claudia Sieber Bethke",
+      role: "Authorin, Creative und Forscherin",
+    },
+    {
+      name: "Nathael Oesterle",
+      role: "Gründer und Inhaber",
+      url: "https://freihaus.ch",
+    },
+    { name: "Dennis Diepolder", role: "Webentwickler" },
   ],
-  creator: 'Nathael Oesterle',
-  publisher: 'Freihaus',
+  creator: "Nathael Oesterle",
+  publisher: "Freihaus",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-}
+};
 
 export default function VillaProjectPage() {
   return (
     <div className="w-full flex flex-col">
       <SpotlightHeader
-        images={[
-          "/villa/vil20.jpeg",
-          "/villa/vil2.jpeg",
-        ]}
+        images={["/villa/vil20.jpeg", "/villa/vil2.jpeg"]}
         header="Villa Felsenhöhe"
         description={`Ein historisches Juwel neu
             belebt

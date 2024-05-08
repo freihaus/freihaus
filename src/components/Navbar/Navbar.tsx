@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { NavbarItems, ProjektItems, FooterItems } from "./items";
 import Link from "next/link";
 import { useState } from "react";
@@ -7,7 +7,7 @@ export default function Navbar() {
   const [showProjects, setShowProjects] = useState(false);
   const [showContacts, setShowContacts] = useState(false);
 
-  const handleMouseEnter = (itemName:any) => {
+  const handleMouseEnter = (itemName: any) => {
     if (itemName === "Projekte") {
       setShowProjects(true);
     } else if (itemName === "Kontakt") {
@@ -15,7 +15,7 @@ export default function Navbar() {
     }
   };
 
-  const handleMouseLeave = (itemName:any) => {
+  const handleMouseLeave = (itemName: any) => {
     if (itemName === "Projekte") {
       setShowProjects(false);
     } else if (itemName === "Kontakt") {
@@ -50,7 +50,13 @@ export default function Navbar() {
             {item.name === "Projekte" && showProjects && (
               <div className="flex flex-col absolute top-full w-[200px] left-0 bg-gray-200 p-2 rounded-md space-y-4">
                 {ProjektItems.map((project) => (
-                  <Link href={project.link} key={project.name} onClick={handleClick}> {/* Hier hinzugefügt */}
+                  <Link
+                    href={project.link}
+                    key={project.name}
+                    onClick={handleClick}
+                  >
+                    {" "}
+                    {/* Hier hinzugefügt */}
                     <p className="block hover:text-custom-cyan transition duration-100 ease-in-out">
                       {project.name}
                     </p>
@@ -61,7 +67,13 @@ export default function Navbar() {
             {item.name === "Kontakt" && showContacts && (
               <div className="flex flex-col absolute top-full w-[200px] right-0 bg-gray-200 p-2 rounded-md space-y-4">
                 {FooterItems.map((contact) => (
-                  <Link href={contact.link} key={contact.name} onClick={handleClick}> {/* Hier hinzugefügt */}
+                  <Link
+                    href={contact.link}
+                    key={contact.name}
+                    onClick={handleClick}
+                  >
+                    {" "}
+                    {/* Hier hinzugefügt */}
                     <p className="block hover:text-custom-cyan transition duration-100 ease-in-out">
                       {contact.name}
                     </p>

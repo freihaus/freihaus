@@ -8,40 +8,45 @@ interface Metadata {
 
 export const metadata = {
   title: "Das Hüsli von der Felsenhöhe - Pionierprojekt in Kreuzlingen",
-  description: "Entdecken Sie das 'Hüsli von der Felsenhöhe', ein Vorzeigeprojekt von FREIHAUS für nachhaltiges und verdichtetes Bauen in Kreuzlingen. Erfahren Sie, wie innovative Technologien wie 3D-Druck mit Hanfstroh und Naturkalk ökologisch verantwortliches Bauen neu definieren.",
+  description:
+    "Entdecken Sie das 'Hüsli von der Felsenhöhe', ein Vorzeigeprojekt von FREIHAUS für nachhaltiges und verdichtetes Bauen in Kreuzlingen. Erfahren Sie, wie innovative Technologien wie 3D-Druck mit Hanfstroh und Naturkalk ökologisch verantwortliches Bauen neu definieren.",
   keywords: [
-    "Hüsli Felsenhöhe", 
-    "nachhaltiges Bauen", 
-    "3D-Druck Architektur", 
-    "verdichtetes Bauen", 
-    "ökologisches Bauen", 
-    "bezahlbarer Wohnraum", 
+    "Hüsli Felsenhöhe",
+    "nachhaltiges Bauen",
+    "3D-Druck Architektur",
+    "verdichtetes Bauen",
+    "ökologisches Bauen",
+    "bezahlbarer Wohnraum",
     "Kreuzlingen Architektur",
     "moderne und traditionelle Bauweise",
-    "FREIHAUS Innovationsprojekt"
+    "FREIHAUS Innovationsprojekt",
   ],
   authors: [
-    { name: 'Claudia Sieber Bethke', role: 'Authorin, Creative und Forscherin' },
-    { name: 'Nathael Oesterle', role: 'Gründer und Inhaber', url: 'https://freihaus.ch' },
-    { name: 'Dennis Diepolder', role: 'Webentwickler' }
+    {
+      name: "Claudia Sieber Bethke",
+      role: "Authorin, Creative und Forscherin",
+    },
+    {
+      name: "Nathael Oesterle",
+      role: "Gründer und Inhaber",
+      url: "https://freihaus.ch",
+    },
+    { name: "Dennis Diepolder", role: "Webentwickler" },
   ],
-  creator: 'Nathael Oesterle',
-  publisher: 'Freihaus',
+  creator: "Nathael Oesterle",
+  publisher: "Freihaus",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-}
+};
 
 export default function HuesliProjectPage() {
   return (
     <div className="w-full flex flex-col">
       <SpotlightHeader
-        images={[
-          "/huesli/huesli-4.jpeg",
-          "/huesli/huesli-5.jpeg",
-        ]}
+        images={["/huesli/huesli-4.jpeg", "/huesli/huesli-5.jpeg"]}
         header="Das Hüsli von der Felsenhöhe"
         description={`Pionierarbeit für
             nachhaltiges und verdichtetes Bauen

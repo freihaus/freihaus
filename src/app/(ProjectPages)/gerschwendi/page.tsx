@@ -8,40 +8,45 @@ interface Metadata {
 
 export const metadata = {
   title: "Die Gerschwendi - Ein Seminarhaus mit Geschichte in Appenzell",
-  description: "Die Gerschwendi von FREIHAUS, ein Seminarhaus im Herzen von Appenzell, lädt zu Selbstfindung und geschichtlichem Verständnis ein. Erfahren Sie mehr über unsere Seminare und die einzigartige Geschichte der 'Hexengeschichte', die das Haus umgibt.",
+  description:
+    "Die Gerschwendi von FREIHAUS, ein Seminarhaus im Herzen von Appenzell, lädt zu Selbstfindung und geschichtlichem Verständnis ein. Erfahren Sie mehr über unsere Seminare und die einzigartige Geschichte der 'Hexengeschichte', die das Haus umgibt.",
   keywords: [
-    "Gerschwendi", 
-    "Seminarhaus", 
-    "FREIHAUS Projekt", 
-    "Besinnung", 
-    "Appenzell", 
-    "Hexengeschichte", 
+    "Gerschwendi",
+    "Seminarhaus",
+    "FREIHAUS Projekt",
+    "Besinnung",
+    "Appenzell",
+    "Hexengeschichte",
     "historisches Seminarhaus",
     "kulturelles Erbe",
-    "geistige Erneuerung"
+    "geistige Erneuerung",
   ],
   authors: [
-    { name: 'Claudia Sieber Bethke', role: 'Authorin, Creative und Forscherin' },
-    { name: 'Nathael Oesterle', role: 'Gründer und Inhaber', url: 'https://freihaus.ch' },
-    { name: 'Dennis Diepolder', role: 'Webentwickler' }
+    {
+      name: "Claudia Sieber Bethke",
+      role: "Authorin, Creative und Forscherin",
+    },
+    {
+      name: "Nathael Oesterle",
+      role: "Gründer und Inhaber",
+      url: "https://freihaus.ch",
+    },
+    { name: "Dennis Diepolder", role: "Webentwickler" },
   ],
-  creator: 'Nathael Oesterle',
-  publisher: 'Freihaus',
+  creator: "Nathael Oesterle",
+  publisher: "Freihaus",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-}
+};
 
 export default function GerschwendiProjectPage() {
   return (
     <div className="w-full flex flex-col">
       <SpotlightHeader
-        images={[
-          "/gersch/ger2.jpeg",
-          "/gersch/ger10.jpeg",
-        ]}
+        images={["/gersch/ger2.jpeg", "/gersch/ger10.jpeg"]}
         header="Die Gerschwendi"
         description={`Ein Haus im Niemandsland. Eine Oase der Besinnung im Herzen von Appenzell
                 Die Waldhütte "Gerschwendi", liebevoll getauft von der FREIHAUS

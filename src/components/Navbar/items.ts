@@ -4,8 +4,6 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { MdOutlineContactPhone } from "react-icons/md";
 import { IoImages } from "react-icons/io5";
 
-
-
 export const NavbarItems: {
   name: string;
   icon: React.ElementType;
@@ -14,7 +12,7 @@ export const NavbarItems: {
   { name: "Home", icon: CustomIcon, link: "/" },
   { name: "Projekte", icon: GiGearHammer, link: "/projekte" },
   { name: "Über Uns", icon: FaPeopleGroup, link: "/ueberuns" },
-  {name: "Galerie", icon: IoImages, link: "/galerie"},
+  { name: "Galerie", icon: IoImages, link: "/galerie" },
   { name: "Kontakt", icon: MdOutlineContactPhone, link: "/kontakt" },
 ];
 
@@ -28,7 +26,7 @@ export const ProjektItems: {
   { name: "Das Hüsli von der Felsenhöhe", link: "/huesli" },
   { name: "Ein kleines Dorf in St. Gallien", link: "/dorf-stgallien" },
   { name: "Der Sandkasten", link: "/sandkasten" },
-]
+];
 
 export const FooterItems: {
   name: string;
@@ -37,4 +35,4 @@ export const FooterItems: {
   { name: "Kontakt", link: "/kontakt" },
   { name: "Datenschutz", link: "/datenschutz" },
   { name: "AGB", link: "/agb" },
-]
+];

@@ -48,7 +48,6 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
             transition: `opacity ${fadeDuration / 1000}s ease`,
             opacity:
               index === currentIndex ? 1 : index === nextIndex ? opacity : 0,
-            
           }}
         />
       ))}

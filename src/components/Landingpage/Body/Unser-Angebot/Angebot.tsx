@@ -1,4 +1,3 @@
-
 import PictureRight from "../pictureRight";
 
 export default function Angebot() {
