@@ -32,7 +32,7 @@ export default function AGB() {
             <p>Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Nutzer der Website {`"freihaus.ch"`}. Durch die Nutzung der Website erklären Sie sich mit diesen Bedingungen einverstanden.</p>
 
             <h1 className="font-bold text-xl mt-4">2. Urheberrecht</h1>
-            <p>Alle Inhalte auf dieser Website, einschließlich Texte, Grafiken(ausschließlich Icons), Logos und Bilder sind Eigentum von Freihaus GmbH und durch das deutsche Urheberrechtsgesetz geschützt. Die Verwendung der Inhalte, einschließlich der Vervielfältigung, Modifikation, Verbreitung oder Reproduktion ohne vorherige schriftliche Zustimmung von [Ihr Name oder Ihr Unternehmen] ist streng verboten.</p>
+            <p>Alle Inhalte auf dieser Website, einschließlich Texte, Grafiken(ausschließlich Icons), Logos und Bilder sind Eigentum von Freihaus GmbH und durch das deutsche Urheberrechtsgesetz geschützt. Die Verwendung der Inhalte, einschließlich der Vervielfältigung, Modifikation, Verbreitung oder Reproduktion ohne vorherige schriftliche Zustimmung von Freihaus GmbH ist streng verboten.</p>
 
             <h1 className="font-bold text-xl mt-4">3. Cookies</h1>
             <p>Diese Website verwendet Cookies, die für den Betrieb und die Sicherheit der Website notwendig sind. Diese Cookies sammeln keine persönlichen Daten und dienen ausschließlich dazu, die Funktionalität der Website zu gewährleisten.</p>
