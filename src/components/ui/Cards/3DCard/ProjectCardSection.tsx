@@ -24,7 +24,7 @@ export default function ProjectCardSection() {
       <ThreeDCard
         headText="Das Hüsli von der Felsenhöhe"
         content="Pionierarbeit für nachhaltiges und verdichtetes Bauen"
-        imgSrc="/huesli/huesli-1.jpeg"
+        imgSrc="/huesli/huesli.jpeg"
         cardHref="/huesli"
       />
       <ThreeDCard

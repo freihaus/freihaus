@@ -50,7 +50,6 @@ export default function SandkastenProjectPage() {
     <div className="w-full flex flex-col">
       <SpotlightHeader
         images={[
-          "/huesli/huesli-3.jpeg",
           "/sand/sand1.jpeg",
           "/sand/sand2.jpeg",
         ]}

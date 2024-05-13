@@ -47,7 +47,7 @@ export default function KollbrunnerProjectPage() {
   return (
     <div className="w-full flex flex-col">
       <SpotlightHeader
-        images={["/koll/huet2.jpeg", "/about/about5.jpeg", "/koll/huet7.jpeg"]}
+        images={["/koll/huet1.jpeg", "/koll/huet4.jpeg", "/koll/huet7.jpeg"]}
         header="Das Kollbrunner Haus"
         description={`Erbe und Inspiration
                 Das Kollbrunner Haus in Hüttlingen, einst die Heimat des
