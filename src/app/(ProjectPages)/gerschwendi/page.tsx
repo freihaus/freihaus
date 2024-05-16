@@ -46,7 +46,7 @@ export default function GerschwendiProjectPage() {
   return (
     <div className="w-full flex flex-col">
       <SpotlightHeader
-        images={["/gersch/ger2.jpeg", "/gersch/ger10.jpeg"]}
+        images={["/gersch/ger2.jpeg", "/gersch-header.jpeg"]}
         header="Die Gerschwendi"
         description={`Ein Haus im Niemandsland. Eine Oase der Besinnung im Herzen von Appenzell
                 Die Waldhütte "Gerschwendi", liebevoll getauft von der FREIHAUS
