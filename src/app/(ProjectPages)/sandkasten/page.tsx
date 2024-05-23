@@ -54,6 +54,7 @@ export default function SandkastenProjectPage() {
           "/sand/sand2.jpeg",
         ]}
         header="Unser Sandkasten: Innovationslabor für die Zukunft des Bauens und Wohnens"
+        threeDModel={false}
         description={`Im „Sandkasten“ von FREIHAUS vereinen wir Visionen für das Bauen, Wohnen und Beleben unserer zukünftigen Lebensräume. Dieser Bereich, der gerade aufgebaut wird, ist als dynamisches Forum konzipiert, in dem Interessierte zusammenkommen, um zu forschen, zu entwickeln und zu lernen. Hier wird die Zukunft des Wohnens nicht nur diskutiert, sondern aktiv gestaltet.`}
         PartOneH="Ein Kaleidoskop der Möglichkeiten"
         PartOneD={`In unserem Sandkasten setzen wir uns wir zukunftsweisenden Ansätze wie MicroHousing, New Healing Architecture und 3-D Druck im Bauwesen auseinander. Wir experimentieren mit neuen Materialien, die nachhaltig und regional bezogen sind, und entwickeln Konzepte für Gemeinschaftsbildung, generationenübergreifendes Zusammenleben, Tiny-Living und Minimalismus. Jeder Aspekt unseres Forums ist darauf ausgerichtet, nachhaltige, machbare, bezahlbare und innovative Lösungen für die Herausforderungen modernen Wohnens zu finden.`}
