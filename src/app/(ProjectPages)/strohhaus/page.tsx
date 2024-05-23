@@ -1,5 +1,57 @@
 import { SpotlightHeader } from "@/components/ui/ProjectPages/SpotlightHeader";
 
+interface Metadata {
+  title: string;
+  description: string;
+  keywords: string[];
+  authors: { name: string; role: string; url?: string }[];
+  creator: string;
+  publisher: string;
+  formatDetection: {
+    email: boolean;
+    address: boolean;
+    telephone: boolean;
+  };
+}
+
+export const metadata: Metadata = {
+  title: "Das Strohhaus - Ein Meilenstein in nachhaltiger Baukunst",
+  description:
+    "Das mehrstöckige Strohhaus in Thurgau, initiiert von Nael Oesterle und der FREIHAUS GmbH, steht als Symbol für Pioniergeist und nachhaltige Bauweise in der Schweiz. Erfahren Sie mehr über die Herausforderungen und Erfolge dieses innovativen Bauprojekts.",
+  keywords: [
+    "Strohhaus",
+    "FREIHAUS",
+    "Nachhaltigkeit",
+    "Nael Oesterle",
+    "Baukunst",
+    "Thurgau",
+    "ökologisches Bauen",
+    "Minergie Zertifikat",
+    "innovatives Bauen",
+    "Bauhistorie Schweiz",
+  ],
+  authors: [
+    {
+      name: "Claudia Sieber Bethke",
+      role: "Authorin, Creative und Forscherin",
+    },
+    {
+      name: "Nathael Oesterle",
+      role: "Gründer und Inhaber",
+      url: "https://freihaus.ch",
+    },
+    { name: "Dennis Diepolder", role: "Webentwickler" },
+  ],
+  creator: "Nathael Oesterle",
+  publisher: "Freihaus",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+};
+
+
 export default function StrohhausProjectPage() {
     return (
       <div className="w-full flex flex-col">
