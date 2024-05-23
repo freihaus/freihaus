@@ -49,10 +49,6 @@ function HouseModel() {
                 <OrbitControls
                     enableZoom={false}
                     enableRotate={false}
-                    minPolarAngle={Math.PI / 2}
-                    maxPolarAngle={Math.PI / 2}
-                    minAzimuthAngle={-Infinity}
-                    maxAzimuthAngle={Infinity}
                 />
             </Canvas>
         </div>
