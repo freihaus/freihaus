@@ -59,7 +59,7 @@ export function SpotlightHeader({
   optionalProp8?: string;
 }) {
   return (
-    <div className=" w-full rounded-md flex bg-black antialiased bg-grid-white/[0.06] relative overflow-hidden">
+    <div className="w-full rounded-md flex bg-black antialiased bg-grid-white/[0.06] relative overflow-hidden">
       <div className="w-full mt-52">
         <Spotlight
           className="-top-72 left-0 md:left-60 md:-top-40"
@@ -284,12 +284,12 @@ export function SpotlightHeader({
           </div>
         )}
 
-        <div className="w-full flex justify-center md:mt-18">
-          <div className="max-w-[1000px] text-center mx-20 mt-12">
+        <div className="w-full flex justify-center mt-18">
+          <div className="max-w-[1000px] text-center mx-20 mt-12 relative z-10">
             <CallToAction />
           </div>
         </div>
-        <div className="text-white mt-24 mb-12 w-full">
+        <div className="text-white mt-24 mb-12 w-full relative z-10">
           <Impressum />
         </div>
       </div>

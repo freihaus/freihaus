@@ -18,32 +18,32 @@ export function CallToAction() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[20rem]  ">
+    <div className="flex flex-col items-center justify-center h-auto">
       <p className="text-neutral-200 sm:text-base">
         Engagieren Sie sich bei uns, und bringen Sie Ihre Ideen und Ihr Wissen
         ein. Unsere Gemeinschaft von Visionären und Pionieren freut sich darauf,
         gemeinsam neue Wege im Wohn- und Bauwesen zu beschreiten.
       </p>
       <p className="text-3xl font-bold text-white mt-4">Unsere Partner</p>
-      <div className="flex w-full justify-evenly mt-6">
+      <div className="flex flex-col md:flex-row w-full justify-evenly mt-6">
         <Link
           href="https://www.tektur-ag.ch/"
           target="_blank"
-          className="text-white p-4 border-white border-2 rounded-xl text-3xl hover:scale-105 transition ease-in-out duration-100"
+          className="text-white p-4 m-2 border-white border-2 rounded-xl text-3xl hover:scale-105 transition ease-in-out duration-100"
         >
           tektur AG
         </Link>
         <Link
           href="https://www.minimal-konzepte.ch/"
           target="_blank"
-          className="text-white p-4 border-white border-2 rounded-xl text-3xl hover:scale-105 transition ease-in-out duration-100"
+          className="text-white p-4 m-2 border-white border-2 rounded-xl text-3xl hover:scale-105 transition ease-in-out duration-100"
         >
           minimal.living
         </Link>
         <Link
           href="https://www.claudiasieberbethke.com/"
           target="_blank"
-          className="text-white p-4 border-white border-2 rounded-xl text-3xl hover:scale-105 transition ease-in-out duration-100"
+          className="text-white p-4 m-2 border-white border-2 rounded-xl text-3xl hover:scale-105 transition ease-in-out duration-100"
         >
           Claudia Sieber Bethke
         </Link>
