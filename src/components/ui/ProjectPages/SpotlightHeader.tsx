@@ -4,18 +4,20 @@ import { Spotlight } from "./Spotlight";
 import { TextGenerateEffect } from "./text-generate-effect";
 import Image from "next/image";
 import HouseModel from "./house-model";
+import Link from "next/link";
 
 type SpotlightHeaderProps = {
   images: string[];
   header: string;
-  threeDModel: boolean;
+  threeDModel?: boolean;
+  cert?: string;
   description: string;
   PartOneH: string;
   PartOneD: string;
   PartTwoH: string;
   PartTwoD: string;
-  PartThreeH: string;
-  PartThreeD: string;
+  PartThreeH?: string;
+  PartThreeD?: string;
   optionalProp1?: string;
   optionalProp2?: string;
   optionalProp3?: string;
@@ -29,6 +31,7 @@ type SpotlightHeaderProps = {
 export function SpotlightHeader({
   header,
   threeDModel,
+  cert,
   description,
   PartOneH,
   PartOneD,
@@ -69,6 +72,15 @@ export function SpotlightHeader({
           <p className="mt-4 font-normal text-base text-neutral-100 max-w-lg text-center mx-auto">
             {description}
           </p>
+          {cert && (
+            <div className="w-full flex justify-center">
+          <Link
+            className="mt-4 p-4 border rounded-xl text-center text-white text-xl underline hover:scale-105"
+            href={cert}
+            target="_blank"
+          >Zum Zertifikat</Link>
+          </div>
+          )}
         </div>
 
 
@@ -131,6 +143,7 @@ export function SpotlightHeader({
         </div>
 
         {/* Part Three */}
+        {PartThreeH && PartThreeD && (
         <div className="w-full mt-12 md:mt-32 md:mb-40">
           <div className="flex flex-col">
             <h1 className="text-4xl md:text-5xl xl:ml-40 font-bold px-12 py-8 bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-300 bg-opacity-50 text-center md:text-start z-30">
@@ -165,6 +178,7 @@ export function SpotlightHeader({
             </div>
           </div>
         </div>
+        )}
 
         {/* Optional One */}
         {optionalProp1 && optionalProp2 && (

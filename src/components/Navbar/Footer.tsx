@@ -10,20 +10,20 @@ const Impressum = () => {
           <p>Nael Oesterle</p>
           <p>Rankstrasse 3</p>
           <p>8280 Kreuzlingen</p>
-          <p>info@freihaus.ch</p>
-          <p>Tel: 079 761 22 37</p>
         </div>
 
-        <div className="flex flex-col p-5 rounded-xl border m-2">
+        <div className="flex flex-col rounded-xl border m-2 justify-center">
           <Link href="/agb" className="hover:underline">
             AGB
           </Link>
           <Link href="/datenschutz" className="hover:underline">
             Datenschutz
           </Link>
+          <p>Email: info@freihaus.ch</p>
+          <p>Tel: 079 761 22 37</p>
         </div>
 
-        <div className="flex flex-col p-5 rounded-xl border m-2">
+        <div className="flex flex-col p-5 rounded-xl border m-2 justify-center">
           <Link href="/projekte" className="hover:underline">
             Projekte
           </Link>

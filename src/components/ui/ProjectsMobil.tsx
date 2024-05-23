@@ -36,6 +36,11 @@ export default function ProjectsMobile() {
     threshold: 0.1,
   });
 
+  const { ref: ref7, inView: inView7 } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
   return (
     <div className="w-full flex flex-col justify-center items-center z-20">
       <div className="mt-24 m-4">
@@ -53,10 +58,25 @@ export default function ProjectsMobile() {
         </motion.div>
       </div>
       <div className="flex flex-col space-y-4">
-        <motion.div
+
+      <motion.div
           ref={ref1}
           initial={{ opacity: 0, x: -300 }}
           animate={{ opacity: inView1 ? 1 : 0, x: inView1 ? 0 : -300 }}
+          transition={{ type: "spring", stiffness: 40, duration: 0.3 }}
+        >
+          <TwoDCard
+            headText="Das Strohhaus"
+            content="Prädikat mutvoll. Pioniergeist und nachhaltige Baukunst"
+            imgSrc="/strohhaus.jpeg"
+            cardHref="/strohhaus"
+          />
+        </motion.div>
+
+        <motion.div
+          ref={ref2}
+          initial={{ opacity: 0, x: -300 }}
+          animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : -300 }}
           transition={{ type: "spring", stiffness: 40, duration: 0.3 }}
         >
           <TwoDCard
@@ -68,9 +88,9 @@ export default function ProjectsMobile() {
         </motion.div>
 
         <motion.div
-          ref={ref2}
+          ref={ref3}
           initial={{ opacity: 0, x: 300 }}
-          animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : 300 }}
+          animate={{ opacity: inView3 ? 1 : 0, x: inView3 ? 0 : 300 }}
           transition={{ type: "spring", stiffness: 40, duration: 0.3 }}
         >
           <TwoDCard
@@ -84,7 +104,7 @@ export default function ProjectsMobile() {
         <motion.div
           ref={ref3}
           initial={{ opacity: 0, x: -300 }}
-          animate={{ opacity: inView3 ? 1 : 0, x: inView3 ? 0 : -300 }}
+          animate={{ opacity: inView4 ? 1 : 0, x: inView4 ? 0 : -300 }}
           transition={{ type: "spring", stiffness: 40, duration: 0.3 }}
         >
           <TwoDCard
@@ -98,13 +118,13 @@ export default function ProjectsMobile() {
         <motion.div
           ref={ref4}
           initial={{ opacity: 0, x: 300 }}
-          animate={{ opacity: inView4 ? 1 : 0, x: inView4 ? 0 : 300 }}
+          animate={{ opacity: inView5 ? 1 : 0, x: inView5 ? 0 : 300 }}
           transition={{ type: "spring", stiffness: 40, duration: 0.3 }}
         >
           <TwoDCard
             headText="Das Hüsli von der Felsenhöhe"
             content="Pionierarbeit für nachhaltiges und verdichtetes Bauen"
-            imgSrc="/huesli/huesli-1.jpeg"
+            imgSrc="/huesli/huesli.jpeg"
             cardHref="/huesli"
           />
         </motion.div>
@@ -112,7 +132,7 @@ export default function ProjectsMobile() {
         <motion.div
           ref={ref5}
           initial={{ opacity: 0, x: -300 }}
-          animate={{ opacity: inView5 ? 1 : 0, x: inView5 ? 0 : -300 }}
+          animate={{ opacity: inView6 ? 1 : 0, x: inView6 ? 0 : -300 }}
           transition={{ type: "spring", stiffness: 40, duration: 0.3 }}
         >
           <TwoDCard
@@ -126,7 +146,7 @@ export default function ProjectsMobile() {
         <motion.div
           ref={ref6}
           initial={{ opacity: 0, x: 300 }}
-          animate={{ opacity: inView6 ? 1 : 0, x: inView6 ? 0 : 300 }}
+          animate={{ opacity: inView7 ? 1 : 0, x: inView7 ? 0 : 300 }}
           transition={{ type: "spring", stiffness: 40, duration: 0.3 }}
         >
           <TwoDCard

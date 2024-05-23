@@ -3,6 +3,12 @@ import { ThreeDCard } from "./3d-card";
 export default function ProjectCardSection() {
   return (
     <div className="w-full grid 2xl:grid-cols-3 xl:grid-cols-2 lg:grid-cols-2 justify-evenly">
+      <ThreeDCard 
+        headText="Das Strohhaus"
+        content="Prädikat mutvoll. Pioniergeist und nachhaltige Baukunst"
+        imgSrc="/strohhaus.jpeg"
+        cardHref="/strohhaus"
+      />
       <ThreeDCard
         headText="Villa Felsenhöhe"
         content="Ein historischer Juwel neu belebt"

@@ -20,6 +20,7 @@ export const ProjektItems: {
   name: string;
   link: string;
 }[] = [
+  {name: "Das Strohhaus", link: "/strohhaus"},
   { name: "Die Villa Felsenhöhe", link: "/villa-felsenhoehe" },
   { name: "Die Gerschwendi", link: "/gerschwendi" },
   { name: "Das Kollbrunner Haus", link: "/kollbrunner-haus" },

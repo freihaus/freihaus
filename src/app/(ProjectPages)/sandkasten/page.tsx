@@ -1,6 +1,3 @@
-import CustomIcon from "@/components/icons/logo";
-import SandkastenCard from "@/components/ui/Cards/SandkastenCard";
-import { Spotlight } from "@/components/ui/ProjectPages/Spotlight";
 import { SpotlightHeader } from "@/components/ui/ProjectPages/SpotlightHeader";
 
 interface Metadata {

@@ -46,7 +46,7 @@ export default function VillaProjectPage() {
   return (
     <div className="w-full flex flex-col">
       <SpotlightHeader
-        images={["/villa/vil20.jpeg", "/villa/vil2.jpeg"]}
+        images={["/villa/vil20.jpeg", "/villa/vil19.jpeg"]}
         header="Villa Felsenhöhe"
         threeDModel={false}
         description={`Ein historisches Juwel neu
