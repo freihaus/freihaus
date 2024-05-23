@@ -62,7 +62,7 @@ export default function About() {
                 <div className="flex flex-col w-full justify-end">
                   <div className="flex justify-end">
                     <Image
-                      src={"/about/about1.jpeg"}
+                      src={"/about/about3.jpeg"}
                       width={800}
                       height={800}
                       alt="about1"
@@ -81,7 +81,7 @@ export default function About() {
                 <div className="md:flex flex-col w-full justify-end hidden">
                   <div className="">
                     <Image
-                      src={"/about/about2.jpeg"}
+                      src={"/about/about1.jpeg"}
                       width={800}
                       height={800}
                       alt="about1"
@@ -110,10 +110,10 @@ export default function About() {
                 <div className="flex flex-col w-full justify-end md:hidden">
                   <div className="flex justify-end">
                     <Image
-                      src={"/about/about2.jpeg"}
+                      src={"/about/about1.jpeg"}
                       width={800}
                       height={800}
-                      alt="about2"
+                      alt="about1"
                       loading="eager"
                     />
                   </div>
@@ -147,10 +147,10 @@ export default function About() {
                 <div className="flex flex-col w-full justify-end">
                   <div className="flex justify-end">
                     <Image
-                      src={"/about/about3.jpeg"}
+                      src={"/about/about2.jpeg"}
                       width={800}
                       height={800}
-                      alt="about3"
+                      alt="about2"
                       loading="eager"
                     />
                   </div>

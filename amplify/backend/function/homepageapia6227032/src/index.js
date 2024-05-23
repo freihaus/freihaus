@@ -20,7 +20,7 @@ exports.handler = async (event) => {
         const ses = new AWS.SES();
         const params = {
             Destination: {
-                ToAddresses: ['admin@freihaus.ch'] 
+                ToAddresses: ['info@freihaus.ch'] 
             },
             Message: {
                 Body: {
