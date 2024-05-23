@@ -14,7 +14,7 @@ function House() {
 
     useEffect(() => {
         if (houseRef.current) {
-            houseRef.current.rotation.x = Math.PI / 32; // Neige das Haus leicht zu dir
+            houseRef.current.rotation.x = Math.PI / 32; // Neige das Haus leicht nach vorne
             houseRef.current.scale.set(0.75, 0.75, 0.75); // Skaliere das Haus auf 10%
         }
     }, []);
@@ -48,6 +48,7 @@ function HouseModel() {
                 <CameraSetup />
                 <OrbitControls
                     enableZoom={false}
+                    enableRotate={false}
                     minPolarAngle={Math.PI / 2}
                     maxPolarAngle={Math.PI / 2}
                     minAzimuthAngle={-Infinity}
