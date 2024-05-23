@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.6",
     "clsx": "^2.1.0",
     "framer-motion": "^11.1.7",
     "js-cookie": "^3.0.5",
@@ -23,7 +25,8 @@
     "react-slick": "^0.30.2",
     "sharp": "^0.33.3",
     "slick-carousel": "^1.8.1",
-    "tailwind-merge": "^2.3.0"
+    "tailwind-merge": "^2.3.0",
+    "three": "^0.164.1"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.6",
@@ -31,6 +34,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-slick": "^0.23.13",
+    "@types/three": "^0.164.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.2",
     "postcss": "^8",

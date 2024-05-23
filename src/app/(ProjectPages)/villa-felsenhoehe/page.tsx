@@ -48,6 +48,7 @@ export default function VillaProjectPage() {
       <SpotlightHeader
         images={["/villa/vil20.jpeg", "/villa/vil2.jpeg"]}
         header="Villa Felsenhöhe"
+        threeDModel={false}
         description={`Ein historisches Juwel neu
             belebt
             Das Erbe der Pioniere und Visionäre

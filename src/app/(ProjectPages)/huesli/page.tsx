@@ -48,6 +48,7 @@ export default function HuesliProjectPage() {
       <SpotlightHeader
         images={["/huesli/huesli.jpeg", "/huesli/huesli-4.jpeg"]}
         header="Das Hüsli von der Felsenhöhe"
+        threeDModel={true}
         description={`Pionierarbeit für
             nachhaltiges und verdichtetes Bauen
             Innovatives Wohnkonzept in Kreuzlingen

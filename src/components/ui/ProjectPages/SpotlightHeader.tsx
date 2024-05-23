@@ -3,10 +3,12 @@ import { CallToAction } from "./CallToAction";
 import { Spotlight } from "./Spotlight";
 import { TextGenerateEffect } from "./text-generate-effect";
 import Image from "next/image";
+import HouseModel from "./house-model";
 
 type SpotlightHeaderProps = {
   images: string[];
   header: string;
+  threeDModel: boolean;
   description: string;
   PartOneH: string;
   PartOneD: string;
@@ -26,6 +28,7 @@ type SpotlightHeaderProps = {
 
 export function SpotlightHeader({
   header,
+  threeDModel,
   description,
   PartOneH,
   PartOneD,
@@ -67,6 +70,17 @@ export function SpotlightHeader({
             {description}
           </p>
         </div>
+
+
+        {/* Optional Header */}
+
+        {threeDModel && (
+          <div className="w-full flex justify-center mt-10">
+            <HouseModel />
+          </div>
+        )}
+        
+        
 
         {/* Part One */}
         <div className="w-full mt-10">
