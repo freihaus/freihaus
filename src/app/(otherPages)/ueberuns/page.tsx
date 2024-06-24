@@ -41,7 +41,7 @@ export default function About() {
                 <div className="flex flex-col justify-between mt-12">
                   <div>
                     <SmallHeadText text="Nael Oesterle & Claudia Sieber Bethke: Ein Duo, das Zukunft gestaltet" />
-                    <p className="text-2xl p-12 md:w-[400px] lg:w-[550px] xl:w-[650px]">
+                    <p className="text-2xl p-12 md:w-[400px] lg:w-[550px] xl:w-[650px] text-center md:text-start">
                       Bei FREIHAUS GmbH verbindet sich Tradition mit Vision.
                       Nael Oesterle, Gründer von FREIHAUS, und Claudia Sieber
                       Bethke, seine Partnerin, bilden das kreative und
@@ -129,7 +129,7 @@ export default function About() {
                 <div className="flex flex-col justify-evenly mt-12">
                   <div>
                     <SmallHeadText text="Gemeinsam für die Zukunft des Wohnens" />
-                    <p className="text-2xl p-12 md:w-[400px] lg:w-[550px] xl:w-[650px]">
+                    <p className="text-2xl p-12 md:w-[400px] lg:w-[550px] xl:w-[650px] text-center md:text-start">
                       Der Ansatz bei FREIHAUS ist es, Lebensräume zu schaffen,
                       die inspirieren und Generationen verbinden. Durch die enge
                       Zusammenarbeit von Nael und Claudia entstehen
