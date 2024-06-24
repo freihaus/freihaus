@@ -15,7 +15,7 @@
       "function": {
         "homepageapia6227032": {
           "deploymentBucketName": "amplify-homepageapi-dev-58845-deployment",
-          "s3Key": "amplify-builds/homepageapia6227032-5331473970457749642b-build.zip"
+          "s3Key": "amplify-builds/homepageapia6227032-35736a2f6179766e3676-build.zip"
         }
       },
       "api": {
