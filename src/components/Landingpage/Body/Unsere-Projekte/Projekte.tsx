@@ -21,7 +21,6 @@ export default function Projekte() {
           "/koll/huet1.jpeg",
           "/villa/vil16.jpeg",
           "/villa/vil19.jpeg",
-          "/villa/vil12.jpeg",
           "/about/about4.jpeg",
           "/koll/huet8.jpeg",
         ]}

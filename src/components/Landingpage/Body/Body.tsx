@@ -55,7 +55,7 @@ export default function Body() {
         <div className="flex flex-col md:flex-row  w-full justify-evenly items-center mt-6">
           {/*Hintergrund Div der gefolgt werden soll*/}
           <motion.div
-            className="mt-4"
+            className="mt-4 lg:ml-[6rem] lg:pl-4"
             initial={{ x: -1200, y: -50 }}
             animate={{ x: 0, y: 0 }}
             transition={{ type: "spring", stiffness: 40, delay: 3 }}

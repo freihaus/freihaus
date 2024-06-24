@@ -11,9 +11,11 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [isChecked, setIsChecked] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleClick = async (event: any) => {
     event.preventDefault();
+    setLoading(true);
     const response = await sendMail(name, email, message);
     console.log(response);
     if (response.message === "Email send successfully") {
@@ -21,6 +23,7 @@ export default function Contact() {
       setEmail("");
       setMessage("");
     }
+    setLoading(false);
   };
   return (
     <div className="w-full relative flex flex-col items-center justify-between z-20 h-screen">
@@ -90,9 +93,9 @@ export default function Contact() {
               className="px-4 py-2 bg-custom-cyan text-custom-brown rounded-full m-2 hover:scale-110 transition ease-in-out duration-100 disabled:bg-neutral-600"
               type="submit"
               onClick={handleClick}
-              disabled={!isChecked}
+              disabled={!isChecked || !name || !email || !message}
             >
-              Senden
+              {loading ? "Lädt..." : "Absenden"}
             </button>
           </form>
         </div>

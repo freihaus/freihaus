@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Impressum = () => {
   return (
-    <div className="flex flex-col w-full justify-center items-center text-center">
+    <div className="flex flex-col w-full justify-center items-center text-center text-xs">
       <h2 className="text-xl font-bold">Impressum</h2>
       <ul className="w-full grid grid-cols-1 md:grid-cols-3 justify-between">
         <div className="border p-5 rounded-xl m-2">
