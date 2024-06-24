@@ -54,7 +54,7 @@ export default function About() {
                     </p>
                   </div>
                   <div className="w-full flex justify-end">
-                    <p className="p-4 text-xl font-thin w-[400px] italic">
+                    <p className="p-4 text-xl font-thin w-[400px] italic text-end">
                       {`„Wir glauben, dass die Zukunft des Wohnens in der Integration von flexiblen, nachhaltigen und gemeinschaftsfördernden Elementen liegt.“ Nael & Claudia`}
                     </p>
                   </div>
@@ -65,7 +65,7 @@ export default function About() {
                       src={"/about/about3.jpeg"}
                       width={800}
                       height={800}
-                      alt="about1"
+                      alt="Nael und Claudia Kohlbrunner Haus"
                       loading="eager"
                     />
                   </div>
@@ -81,7 +81,7 @@ export default function About() {
                 <div className="md:flex flex-col w-full justify-end hidden">
                   <div className="">
                     <Image
-                      src={"/about/about1.jpeg"}
+                      src={"/about/about2.jpeg"}
                       width={800}
                       height={800}
                       alt="about1"
@@ -89,10 +89,10 @@ export default function About() {
                     />
                   </div>
                 </div>
-                <div className="flex flex-col justify-between mt-12">
-                  <div>
+                <div className="flex flex-col justify-between mt-12 mx-6">
+                  <div className="flex flex-col items-center">
                     <SmallHeadText text="Innovation durch Integration" />
-                    <p className="text-2xl py-12 md:w-[400px] lg:w-[550px] xl:w-[650px]">
+                    <p className="text-2xl py-12 text-center">
                       Nael bringt die Visionen zum Leben, indem er innovative
                       Baukonzepte und Techniken anwendet, die nicht nur
                       ökologisch nachhaltig sind, sondern auch ästhetisch und
@@ -101,8 +101,8 @@ export default function About() {
                       durch Neues sinnvoll zu erweitern.
                     </p>
                   </div>
-                  <div className="w-full flex justify-end">
-                    <p className="p-4 text-2xl text-end md:w-[400px] lg:w-[550px] xl:w-[650px]">
+                  <div className="w-full flex justify-center">
+                    <p className="p-4 text-2xl text-center md:w-[400px] lg:w-[550px] xl:w-[650px]">
                       {`Claudia, mit ihrer tiefen Leidenschaft für Design und Raumgestaltung, führt die essenzielle Quellen- und Visionsarbeit durch. Ihre Fähigkeit, die Wünsche und Bedürfnisse der Menschen zu erkennen und in greifbare Raumkonzepte zu übersetzen, macht jedes der FREIHAUS-Projekte zu einem Unikat. Ihre Arbeit beginnt lange vor dem ersten Spatenstich und setzt sich in jedem Detail der bearbeiteten Gebäude fort.`}
                     </p>
                   </div>
@@ -110,10 +110,10 @@ export default function About() {
                 <div className="flex flex-col w-full justify-end md:hidden">
                   <div className="flex justify-end">
                     <Image
-                      src={"/about/about1.jpeg"}
+                      src={"/about/about2.jpeg"}
                       width={800}
                       height={800}
-                      alt="about1"
+                      alt="Nael und Claudia Kohlbrunner Haus"
                       loading="eager"
                     />
                   </div>
@@ -147,10 +147,10 @@ export default function About() {
                 <div className="flex flex-col w-full justify-end">
                   <div className="flex justify-end">
                     <Image
-                      src={"/about/about2.jpeg"}
+                      src={"/about/about1.jpeg"}
                       width={800}
                       height={800}
-                      alt="about2"
+                      alt="Nael und Claudia Kohlbrunner Haus"
                       loading="eager"
                     />
                   </div>
