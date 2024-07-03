@@ -48,10 +48,10 @@ export default function HuesliProjectPage() {
       <SpotlightHeader
         images={["/huesli/huesli.jpeg", "/huesli/huesli-4.jpeg"]}
         header="Das Hüsli von der Felsenhöhe"
+        claim="Pionierarbeit für
+            nachhaltiges und verdichtetes Bauen"
         threeDModel={true}
-        description={`Pionierarbeit für
-            nachhaltiges und verdichtetes Bauen
-            Innovatives Wohnkonzept in Kreuzlingen
+        description={`
             "Das Hüsli von der Felsenhöhe", geplant auf dem Gelände der Villa
             Felsenhöhe, steht für eine neue Ära des Bauens. FREIHAUS
             GmbH hat es sich zum Ziel gesetzt, durch dieses Vorhaben zu

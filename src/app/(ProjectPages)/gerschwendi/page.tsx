@@ -48,8 +48,9 @@ export default function GerschwendiProjectPage() {
       <SpotlightHeader
         images={["/gersch/ger2.jpeg", "/gersch-header.jpeg"]}
         header="Die Gerschwendi"
+        claim="Ein Haus im Niemandsland"
         threeDModel={false}
-        description={`Ein Haus im Niemandsland. Eine Oase der Besinnung im Herzen von Appenzell
+        description={`Eine Oase der Besinnung im Herzen von Appenzell
                 Die Waldhütte "Gerschwendi", liebevoll getauft von der FREIHAUS
                 GmbH, hat ihre wahre Bestimmung gefunden: Sie ist zu einem
                 Haus für Viele geworden, ein Seminarhaus, das Menschen dazu

@@ -58,10 +58,10 @@ export default function StrohhausProjectPage() {
         <SpotlightHeader
           images={["/stroh/stroh-project1.jpeg", "/stroh/stroh-project2.jpeg"]}
           header="Das Strohhaus"
+          claim="Pioniergeist und nachhaltige Baukunst"
           threeDModel={false}
           cert="https://www.minergie.ch/de/gebaeude/details/?gid=TG-001-A-ECO"
-          description={`Prädikat mutvoll. Pioniergeist und nachhaltige Baukunst
-          Das mehrstöckige erste „Strohhaus" in Thurgau, steht als Meilenstein in der
+          description={`Das „Strohhaus", steht als Meilenstein in der
           Bauhistorie der Schweiz und ist ein Zeugnis der Pionierarbeit von
           Nael Oesterle, dem Gründer von FREIHAUS GmbH. Dieses Projekt
           markierte für Nael seinen entschlossenen Übergang vom
@@ -69,7 +69,7 @@ export default function StrohhausProjectPage() {
           Baukonzepten. Es demonstriert, wie visionäres Denken praktisch
           umgesetzt werden kann. Sein Engagement wurde mit der Erteilung
           des Zertifikats Minergie Nr. TG-001-A-ECO für das erste
-          mehrstöckige Strohhaus anerkannt. Eine verdiente Bestätigung für
+          mehrstöckige Strohhaus in Thurgau anerkannt. Eine verdiente Bestätigung für
           gesundes, kreislauffähiges Bauen mit hohen ökologischen und
           bautechnischen Standards.`}
           PartOneH={`Die Herausforderung des Neuen`}
