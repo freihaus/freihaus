@@ -49,6 +49,7 @@ export default function DorfProjectPage() {
       <SpotlightHeader
         images={["/stgall/stgall.jpeg", "/stgall/stgall3.jpeg"]}
         header="Ein kleines Dorf in St.Gallien"
+        claim=""
         threeDModel={false}
         description={`Inspiriert von Umberto Ecos Darstellung eines kleinen,
                 widerstandsfähigen Dörfchens in "Asterix", plant FREIHAUS die

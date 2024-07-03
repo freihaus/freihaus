@@ -89,10 +89,10 @@ export default function About() {
                     />
                   </div>
                 </div>
-                <div className="flex flex-col justify-between mt-12 mx-6">
+                <div className="flex flex-col justify-between mt-12 mx-6 text-center md:text-end">
                   <div className="flex flex-col items-center">
                     <SmallHeadText text="Innovation durch Integration" />
-                    <p className="text-2xl py-12 text-center">
+                    <p className="text-2xl py-12">
                       Nael bringt die Visionen zum Leben, indem er innovative
                       Baukonzepte und Techniken anwendet, die nicht nur
                       ökologisch nachhaltig sind, sondern auch ästhetisch und
@@ -101,8 +101,8 @@ export default function About() {
                       durch Neues sinnvoll zu erweitern.
                     </p>
                   </div>
-                  <div className="w-full flex justify-center">
-                    <p className="p-4 text-2xl text-center md:w-[400px] lg:w-[550px] xl:w-[650px]">
+                  <div className="w-full flex justify-center md:justify-end">
+                    <p className="text-2xl md:w-[400px] lg:w-[550px] xl:w-[650px]">
                       {`Claudia, mit ihrer tiefen Leidenschaft für Design und Raumgestaltung, führt die essenzielle Quellen- und Visionsarbeit durch. Ihre Fähigkeit, die Wünsche und Bedürfnisse der Menschen zu erkennen und in greifbare Raumkonzepte zu übersetzen, macht jedes der FREIHAUS-Projekte zu einem Unikat. Ihre Arbeit beginnt lange vor dem ersten Spatenstich und setzt sich in jedem Detail der bearbeiteten Gebäude fort.`}
                     </p>
                   </div>

@@ -4,7 +4,7 @@ const Impressum = () => {
   return (
     <div className="flex flex-col w-full justify-center items-center text-center text-xs">
       <h2 className="text-xl font-bold">Impressum</h2>
-      <ul className="w-full grid grid-cols-1 md:grid-cols-3 justify-between">
+      <ul className="w-full flex justify-evenly">
         <div className="border p-5 rounded-xl m-2">
           <p>FreiHaus GmbH</p>
           <p>Nael Oesterle</p>

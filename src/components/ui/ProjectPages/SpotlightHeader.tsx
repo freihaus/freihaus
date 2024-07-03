@@ -9,6 +9,7 @@ import Link from "next/link";
 type SpotlightHeaderProps = {
   images: string[];
   header: string;
+  claim: string;
   threeDModel?: boolean;
   cert?: string;
   description: string;
@@ -30,6 +31,7 @@ type SpotlightHeaderProps = {
 
 export function SpotlightHeader({
   header,
+  claim,
   threeDModel,
   cert,
   description,
@@ -69,6 +71,9 @@ export function SpotlightHeader({
           <h1 className="text-6xl md:text-8xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 z-30">
             {header}
           </h1>
+          <h2 className="text-3xl md:text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 z-30 mb-6">
+            {claim}
+          </h2>
           <div className="flex justify-center mb-20">
           <p className="mt-4 font-normal text-2xl text-neutral-100 w-full text-center">
             {description}

@@ -49,8 +49,9 @@ export default function KollbrunnerProjectPage() {
       <SpotlightHeader
         images={["/koll/huet1.jpeg", "/koll/huet4.jpeg", "/koll/huet7.jpeg"]}
         header="Das Kollbrunner Haus"
+        claim="Erbe und Inspiration"
         threeDModel={false}
-        description={`Erbe und Inspiration
+        description={`
                 Das Kollbrunner Haus in Hüttlingen, einst die Heimat des
                 Schweizer Schriftstellers Oskar Kollbrunner, ist ein Gebäude voller
                 Geschichten. Dieses charaktervolle Fachwerkhaus, das über

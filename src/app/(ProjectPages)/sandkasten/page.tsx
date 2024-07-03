@@ -50,7 +50,8 @@ export default function SandkastenProjectPage() {
           "/sand/sand1.jpeg",
           "/sand/sand2.jpeg",
         ]}
-        header="Unser Sandkasten: Innovationslabor für die Zukunft des Bauens und Wohnens"
+        header="Unser Sandkasten"
+        claim="Innovationslabor für die Zukunft des Bauens und Wohnens"
         threeDModel={false}
         description={`Im „Sandkasten“ von FREIHAUS vereinen wir Visionen für das Bauen, Wohnen und Beleben unserer zukünftigen Lebensräume. Dieser Bereich, der gerade aufgebaut wird, ist als dynamisches Forum konzipiert, in dem Interessierte zusammenkommen, um zu forschen, zu entwickeln und zu lernen. Hier wird die Zukunft des Wohnens nicht nur diskutiert, sondern aktiv gestaltet.`}
         PartOneH="Ein Kaleidoskop der Möglichkeiten"
@@ -60,11 +61,7 @@ export default function SandkastenProjectPage() {
         Zudem vermittelt Claudia Sieber Bethke die entscheidende Visions- und Quellenarbeit, welche die Basis für all unsere Projekte bildet. Diese grundlegende Vorarbeit ist entscheidend, um nachhaltige und innovative Wohnkonzepte von Grund auf zu verstehen und zu entwickeln.`}
         PartThreeH="Einladung zur Teilnahme"
         PartThreeD={`Mit unserem Leitbild - angelehnt an den kleinen Prinzen - laden wir all jene ein, die sich für nachhaltige Architektur und innovatives Wohnen interessieren, sich uns anzuschließen: 
-        "Wenn du ein Haus bauen willst, dann trommle nicht Männer und Frauen zusammen, um Holz zu beschaffen, Aufgaben zu verteilen und Arbeit zu vergeben, sondern erinnere die Menschen an ihre Sehnsucht nach einem echten Zuhause.“ 
-        
-        Mit unserem Leitbild, das vom Kleinen Prinzen inspiriert und abgewandelt ist, laden wir alle ein, die sich für nachhaltige Architektur und innovatives Wohnen interessieren, sich uns anzuschließen:
-        „Wenn du ein Haus bauen willst, trommle nicht einfach Männer und Frauen zusammen, um Holz zu beschaffen, Aufgaben zu verteilen und Arbeit zu vergeben. Stattdessen erinnere die Menschen an ihre Sehnsucht nach einem echten Zuhause.“
-        `}
+        "Wenn du ein Haus bauen willst, dann trommle nicht Männer und Frauen zusammen, um Holz zu beschaffen, Aufgaben zu verteilen und Arbeit zu vergeben, sondern erinnere die Menschen an ihre Sehnsucht nach einem echten Zuhause.“ `}
       />
     </div>
   );

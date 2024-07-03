@@ -48,10 +48,10 @@ export default function VillaProjectPage() {
       <SpotlightHeader
         images={["/villa/vil20.jpeg", "/villa/vil19.jpeg"]}
         header="Villa Felsenhöhe"
+        claim="Ein historisches Juwel neu
+            belebt"
         threeDModel={false}
-        description={`Ein historisches Juwel neu
-            belebt
-            Das Erbe der Pioniere und Visionäre
+        description={`
             Die Villa Felsenhöhe, erbaut von Pionieren des Unternehmertums
             und Bildungswesens - Albert Leutenegger und Hermann Schuler -
             verkörpert weit mehr als ein beeindruckendes Anwesen am See.
